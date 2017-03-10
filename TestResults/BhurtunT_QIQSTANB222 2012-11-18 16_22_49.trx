@@ -1,0 +1,1070 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="25839119-928f-45ba-9d56-483d0f84cc8c" name="BhurtunT@QIQSTANB222 2012-11-18 16:22:49" runUser="QIQ\BhurtunT" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc37a548-0a1e-4665-bb19-abe0d6af83c3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="BhurtunT_QIQSTANB222 2012-11-18 16_22_49">
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\AsyncUnitTests-MSTest.1.0.1\lib\net40-client\Nito.AsyncEx.UnitTests.MSTest.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsWcfService\bin\OneRewardsWcfService.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\bin\OneRewardsMvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-18T16:22:49.3049517+00:00" queuing="2012-11-18T16:22:53.7812077+00:00" start="2012-11-18T16:22:54.6282562+00:00" finish="2012-11-18T16:25:29.8231328+00:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="75" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="74" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="removeRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1693e4db-f862-1c48-6c21-acdbd7afc342">
+      <Execution id="5649823c-2d53-47be-8439-0be075d4ca53" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="removeRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e83d5e76-81cb-7aa5-6350-533ceff0a688">
+      <Execution id="d727a6d3-22fb-4baa-b3f6-ee4a08571eb8" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest1" />
+    </UnitTest>
+    <UnitTest name="CompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="51975c1c-4e33-f71d-0de2-af5df9be6738">
+      <Execution id="965f2265-36d3-4ecd-8468-baefdc2bb585" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyIDTest" />
+    </UnitTest>
+    <UnitTest name="getCompanysTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="9c5e27fe-0639-188a-d23c-50381212400b">
+      <Execution id="9e4ab187-83c4-48ac-b71a-f26ed12657eb" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getCompanysTest" />
+    </UnitTest>
+    <UnitTest name="ConvertImageFiletoBytesTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="c3470532-85b6-cfc4-e394-8ff591a2d3f9">
+      <Execution id="3f4d6043-b8ce-479f-a5db-450cb5400188" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertImageFiletoBytesTest" />
+    </UnitTest>
+    <UnitTest name="LoginTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7bccd21c-8788-8f6b-24d4-252f03c32562">
+      <Execution id="722d98f1-6609-42eb-9a03-b79d4ffba262" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+    </UnitTest>
+    <UnitTest name="RegisterTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="dfed860a-a785-21dc-6a75-52bf42003c70">
+      <Execution id="0ea40c77-f7b9-46a0-a4ac-fb8017a6e233" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest1" />
+    </UnitTest>
+    <UnitTest name="ManageUserControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="cb123c34-53d6-8589-a530-6019f5c69297">
+      <Execution id="a950c613-d651-4648-8fde-1dfbe2af9130" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ManageUserControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getAPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1cc26711-067d-90ed-698f-eafeaf6ffdce">
+      <Execution id="4dc0c43f-8c36-4e0c-a3b6-ef7396d707f4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAPointsTest" />
+    </UnitTest>
+    <UnitTest name="updatePointsTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="cc0be8b2-6b98-51d5-aa58-deb93b8dda05">
+      <Execution id="ccdb2280-1ae4-458b-b7a3-b86ae3574291" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updatePointsTest1" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="713d46ab-6981-fbf5-ac44-81204a8a219e">
+      <Execution id="edb16c58-3aa9-497d-a255-db38aa29aa3b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="OneRewardsInitializerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="46346720-47cc-a1a5-62c4-07a919cfeca1">
+      <Execution id="3d7c9e1b-3f4b-4d1b-a423-f789f6d41bf3" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsInitializerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneRewardsInitializerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CompanyNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7036f143-371c-6f5c-0405-5641f0559823">
+      <Execution id="ce8fb60a-77f9-46ec-851a-1eabda585ea7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyNameTest" />
+    </UnitTest>
+    <UnitTest name="RewardAccountsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="0a370041-7040-2e13-5863-bac5253f5ac5">
+      <Execution id="2a158ea7-393e-475c-ac7c-ed80c97a2127" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountsTest" />
+    </UnitTest>
+    <UnitTest name="TotalPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9ece2e17-897e-6388-d7d8-b0118f0c769a">
+      <Execution id="e50a3e75-49a0-48d2-89a5-a1d54ecc47df" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TotalPointsTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="376d4788-8860-6174-3388-983e231b8249">
+      <Execution id="a4c85b35-a9b4-496a-b6fc-b065bd65a429" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+    <UnitTest name="EmailTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="78b00d71-1a05-ac7a-2671-0133262f0f63">
+      <Execution id="6fce931b-eb71-41bb-9ad8-c5369b225aab" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmailTest" />
+    </UnitTest>
+    <UnitTest name="superUserTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="77a4f4e8-b860-8022-afa0-04f704a7d75b">
+      <Execution id="87a444af-20fa-43b5-a382-266997e5fa75" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="superUserTest" />
+    </UnitTest>
+    <UnitTest name="LoginTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="63d0853f-8615-5260-30bf-6de8d2e4f284">
+      <Execution id="72e1b1f1-35a8-4679-9efd-bac19eced697" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest1" />
+    </UnitTest>
+    <UnitTest name="LoginModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="16a1e043-b2e2-a94b-4b08-b68a099fd758">
+      <Execution id="be5641de-595e-451c-b984-0c7b1168af01" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginModelConstructorTest" />
+    </UnitTest>
+    <UnitTest name="NewPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="43d82bd3-0aa5-484b-e322-8b19b19a32b8">
+      <Execution id="a13d54d1-96b4-403b-ba2b-9c2290bfb077" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewPasswordTest" />
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1c13d659-810f-6384-0517-5350c94c0df9">
+      <Execution id="f78220be-0906-4012-a5f8-8fb8933821fd" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.CodedUITest1, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="getCompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="bb8a6b75-14c9-d8c2-3ecb-8348bdaa6920">
+      <Execution id="47d21381-51af-4907-ae19-7eca57252459" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getCompanyIDTest" />
+    </UnitTest>
+    <UnitTest name="CompanyTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bd3310f4-b4bd-3ae6-6615-9138f25eecfe">
+      <Execution id="ad06d700-e700-4024-af8e-57c54146acf5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyTest" />
+    </UnitTest>
+    <UnitTest name="RewardAccountControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="47c84612-e9a7-0037-f786-2df27ea2d7d5">
+      <Execution id="bc404c9b-55c1-4ea3-abce-ed14703bf5d2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RewardAccountConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a">
+      <Execution id="1a3443ad-1b2a-4640-afe7-5cc5daae310a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccessTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5">
+      <Execution id="f545fe50-c159-4dcf-9d18-1cf218f01f73" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccessTest" />
+    </UnitTest>
+    <UnitTest name="getAllRewardsAccountTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1d26647c-42ba-c0b9-2ee7-5450efeecfd9">
+      <Execution id="71730347-caec-44c7-b67d-1d9b985bcd7a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAllRewardsAccountTest1" />
+    </UnitTest>
+    <UnitTest name="VerifyAppDomainHasConfigurationSettings" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="145fdb5f-e5e9-756f-1a85-85923f93c7a4">
+      <Execution id="4fae89ae-fbf0-4209-a180-600cc5ef9863" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyAppDomainHasConfigurationSettings" />
+    </UnitTest>
+    <UnitTest name="PointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="f75630da-5c1f-a916-4e6a-f746a6a75e69">
+      <Execution id="2149df9f-380e-46fa-8626-82b7808a5c9f" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PointsTest" />
+    </UnitTest>
+    <UnitTest name="updatePointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="e82191a5-2f62-4d54-fa6f-90c6e1d348a4">
+      <Execution id="bd114445-15e7-4af0-b533-aa5607b495e6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updatePointsTest" />
+    </UnitTest>
+    <UnitTest name="CompanyConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bd178d7f-5b38-e3e2-4e89-bcc5bc5dd2bc">
+      <Execution id="b345f188-9fdb-4b23-a5fc-3b3644c6f275" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyConstructorTest" />
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5c4a3b81-d2e9-390e-4d47-debd5f30f955">
+      <Execution id="c0f3dc6b-0bde-47b1-b1dd-5e1145cc144c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+    </UnitTest>
+    <UnitTest name="getCompanyLogoTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="3123d3c1-b807-14df-258c-4bcb70729054">
+      <Execution id="9503da93-e016-4563-bd8b-d9c73056e420" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getCompanyLogoTest" />
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="569db36b-aaf6-0347-4a22-0da6b66abb9d">
+      <Execution id="44c5be5c-c929-4842-927c-8501bd0548e2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+    </UnitTest>
+    <UnitTest name="getTPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="48762070-4a75-7928-4c52-f763f6fa0806">
+      <Execution id="d2475712-dc0d-469e-a645-2a11c32e9e38" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTPointsTest" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="29ea4fd2-7950-bb6f-6670-81b029ce6dc7">
+      <Execution id="b829d25e-6d28-4728-90b0-8d8101abff1e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="00be0e1b-b601-c776-f2f0-30741904f1b1">
+      <Execution id="3a184523-d95b-47b1-b87c-fa7b91910fff" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+    </UnitTest>
+    <UnitTest name="addDuplicateRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="77d7d89d-1e6e-7b7f-2b0f-a16d7a49ede6">
+      <Execution id="11b0a3ef-31b1-4a30-9898-c7627d0c5536" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addDuplicateRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189">
+      <Execution id="3aa34ec4-4539-412c-bbae-f116c47721ae" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest" />
+    </UnitTest>
+    <UnitTest name="RegisterTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99">
+      <Execution id="e0c12f43-b093-4df0-954b-037d27ee4f1a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest" />
+    </UnitTest>
+    <UnitTest name="UtilitiesConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2cc9ea1a-a266-d60f-a5ef-ca71eb8d2701">
+      <Execution id="7279dd2c-07f9-43dc-aeb2-73b21e78348b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UtilitiesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RewardAccountIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="8141c866-f817-7fc4-cbec-b68e4ba3e60d">
+      <Execution id="12286ca7-d9e9-4064-b729-876856663024" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountIDTest" />
+    </UnitTest>
+    <UnitTest name="getAPointsTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="f54be62e-b6ef-0fd9-a706-6249527c3013">
+      <Execution id="6ca113e7-6b15-406f-be33-b662de2bd771" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAPointsTest1" />
+    </UnitTest>
+    <UnitTest name="updatePointsTest2" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="37d24a8f-6816-1971-ad17-a13c8dbb2c2f">
+      <Execution id="561ab379-4ef8-45d5-86dd-b3cbee6723b6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updatePointsTest2" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203">
+      <Execution id="6ac9a843-8ec2-4b67-8fdf-794778451dd2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+    <UnitTest name="AccountControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2fbb13fc-94a9-6e99-97ca-45b994685fe9">
+      <Execution id="8b872c0f-1137-4a70-939c-6e2eb727fdb4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AccountControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="randomNumberTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="21be142e-5370-ae21-e2dc-be63484b5918">
+      <Execution id="2978ed8d-4ce7-44e1-b6e0-1f633241ffc2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="randomNumberTest" />
+    </UnitTest>
+    <UnitTest name="CompanyLogoTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411">
+      <Execution id="fb558b5c-dd07-40fc-843a-ab64620383af" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyLogoTest" />
+    </UnitTest>
+    <UnitTest name="CompanysTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5d19af3b-a1f7-93d9-f491-f55c1806498c">
+      <Execution id="c86569ed-ae1e-42d1-b16b-2a064c5b3203" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanysTest" />
+    </UnitTest>
+    <UnitTest name="getRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="19c3c3f8-0de5-98b3-b920-2aa3a45b3c3a">
+      <Execution id="50bbb51c-9723-44bc-b6a0-112cabaf7770" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="RegisterModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6">
+      <Execution id="85099866-ce70-4e6a-9539-845418096327" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterModelConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bfa3d854-20e9-afaf-6a5b-84d340d16475">
+      <Execution id="a1411648-d584-4d2d-8804-1dab693257d3" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="0500de23-aeeb-f6c6-c692-6fab2def3d9a">
+      <Execution id="58e01e8b-18a4-419b-a806-88dfcc5b65c7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+    </UnitTest>
+    <UnitTest name="RememberMeTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="6d0c9798-42d3-4120-fbc0-fe8daffcbb33">
+      <Execution id="354fdc24-9a2f-4159-a177-12ccdba48030" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RememberMeTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="45ccdcf3-4686-de7a-54f8-2bf19bffaf16">
+      <Execution id="0270736d-62fb-4e48-81c9-3ed73de782d5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordModelConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getCompanyNamesTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="e51a2420-e972-e32d-c397-59bc0fd814dc">
+      <Execution id="8a6961e4-2c6d-41df-93ed-1d5bdf1eae7b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getCompanyNamesTest" />
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5d366f05-d5ed-f6a1-c3f5-0946714cc580">
+      <Execution id="d3580605-4d68-42c3-8eb6-6e3a396d8655" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+    </UnitTest>
+    <UnitTest name="OneRewardsContextConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="429d7597-ec02-7233-723e-1f5db3d511c3">
+      <Execution id="d1f77b36-75cf-4160-8360-ca4307c48b46" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneRewardsContextConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getCompanyLogoIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="74a55861-f0ce-65d1-fdbe-91c8dd52c914">
+      <Execution id="a9aa6431-7699-40a2-8bf5-dfefe03d5dd9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getCompanyLogoIDTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="17bdc49d-92ff-5313-d946-c26cad936b82">
+      <Execution id="4cc9c6d3-b6af-4b3e-84f1-4a3093bb0703" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="11fe0478-6fbe-efe8-a7c0-eff58555c624">
+      <Execution id="ba94fd32-65c2-4fdc-964c-e62a795244a4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9393a8b0-c66a-8c79-0e50-8db802539041">
+      <Execution id="2a3a9e50-88c2-45d5-a0a3-60cb3bcfe193" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="CompanyControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="048c21fc-22db-258a-b14e-0727745eb56f">
+      <Execution id="185a3eb2-28ff-400f-88b7-63c31dc8cb4a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2da4bebc-3c59-5ad6-f979-253de0819eef">
+      <Execution id="38573d5f-3328-44d2-94fe-613b269c792e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyIDTest" />
+    </UnitTest>
+    <UnitTest name="autenticateUnregisteredTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="598a27e1-d830-9fbb-0960-89499962ae78">
+      <Execution id="961a2e39-f257-4359-bfff-e2fb01f20074" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="autenticateUnregisteredTest" />
+    </UnitTest>
+    <UnitTest name="getAllRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="f9952bbc-fdc3-e8c2-a850-eb918257649d">
+      <Execution id="b7af1f59-7989-4fce-8520-ae2a4eb9f251" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAllRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="autenticatRegisteredTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="5176054c-75c6-838b-4970-d3108d95b0c4">
+      <Execution id="c0106c6c-f0bd-4809-8fba-4164e0325889" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="autenticatRegisteredTest" />
+    </UnitTest>
+    <UnitTest name="checkUserTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="aa374df2-50fc-43d7-2eb6-9baf87f49e00">
+      <Execution id="5204591e-30af-46d8-a4ed-70848fc5053c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkUserTest" />
+    </UnitTest>
+    <UnitTest name="CompanyRewardsLinkTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="f7d76670-4ea5-14d9-3740-a9f0c64dcb60">
+      <Execution id="e95d5354-b746-4abc-bf83-9fcb52398d44" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyRewardsLinkTest" />
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d">
+      <Execution id="5b1fd3e1-ce53-42df-9e7c-b44cb376461a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+    </UnitTest>
+    <UnitTest name="removeRewardsAccountTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="03723c9d-78b0-9a97-d39b-ea9adc0b5032">
+      <Execution id="b94ef9d3-033a-4ef3-a856-afaa77fe26c2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="removeRewardsAccountTest1" />
+    </UnitTest>
+    <LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="74cc03d9-f4f9-4ea6-a883-6bcf1d017f2c">
+      <Scenarios>
+        <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+          <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
+          <LoadProfile Pattern="Constant" InitialUsers="25" />
+          <TestMix>
+            <TestProfile Name="LoginTest" Path="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" Id="7bccd21c-8788-8f6b-24d4-252f03c32562" Percentage="50" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="getAPointsTest" Path="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" Id="1cc26711-067d-90ed-698f-eafeaf6ffdce" Percentage="50" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+          </TestMix>
+          <NetworkMix>
+            <NetworkProfile Percentage="100">
+              <Network Name="LAN" BandwidthInKbps="1000000" NetworkProfileConfigurationXml="&lt;Emulation&gt;&lt;VirtualChannel name=&quot;defaultChannel&quot;&gt;&lt;FilterList/&gt;&lt;VirtualLink instances=&quot;1&quot; name=&quot;defaultLink&quot;&gt;&lt;LinkRule dir=&quot;upstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;LinkRule dir=&quot;downstream&quot;&gt;&lt;Bandwidth&gt;&lt;Speed unit=&quot;kbps&quot;&gt;1000000&lt;/Speed&gt;&lt;/Bandwidth&gt;&lt;/LinkRule&gt;&lt;/VirtualLink&gt;&lt;/VirtualChannel&gt;&lt;/Emulation&gt;" />
+            </NetworkProfile>
+          </NetworkMix>
+        </Scenario>
+      </Scenarios>
+      <CounterSets>
+        <CounterSet Name="QIQSTANB222" CounterSetType="LoadTest" LocId="">
+          <CounterCategories>
+            <CounterCategory Name="LoadTest:Scenario">
+              <Counters>
+                <Counter Name="User Load" HigherIsBetter="true" />
+                <Counter Name="Tests Running" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Test">
+              <Counters>
+                <Counter Name="Total Tests" HigherIsBetter="true" />
+                <Counter Name="Passed Tests" HigherIsBetter="true" />
+                <Counter Name="Failed Tests" />
+                <Counter Name="Tests/Sec" HigherIsBetter="true" />
+                <Counter Name="Passed Tests/Sec" HigherIsBetter="true" />
+                <Counter Name="Failed Tests/Sec" />
+                <Counter Name="Avg. Requests/Test" HigherIsBetter="true" />
+                <Counter Name="Avg. Test Time" />
+                <Counter Name="% Time in LoadTestPlugin" />
+                <Counter Name="% Time in WebTest code" />
+                <Counter Name="% Time in Rules" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Transaction">
+              <Counters>
+                <Counter Name="Total Transactions" HigherIsBetter="true" />
+                <Counter Name="Avg. Transaction Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Transactions/Sec" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Errors">
+              <Counters>
+                <Counter Name="Http Errors" />
+                <Counter Name="Validation Rule Errors" />
+                <Counter Name="Extraction Rule Errors" />
+                <Counter Name="Requests Timed Out" />
+                <Counter Name="Exceptions" />
+                <Counter Name="Total Errors" />
+                <Counter Name="Errors/Sec" />
+                <Counter Name="Threshold Violations/Sec" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Page">
+              <Counters>
+                <Counter Name="Total Pages" HigherIsBetter="true" />
+                <Counter Name="Avg. Page Time" />
+                <Counter Name="Page Response Time Goal" HigherIsBetter="true" />
+                <Counter Name="% Pages Meeting Goal" HigherIsBetter="true" />
+                <Counter Name="Pages/Sec" HigherIsBetter="true" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Request">
+              <Counters>
+                <Counter Name="Total Requests" HigherIsBetter="true" />
+                <Counter Name="Passed Requests" HigherIsBetter="true" />
+                <Counter Name="Failed Requests" />
+                <Counter Name="Cached Requests" HigherIsBetter="true" />
+                <Counter Name="Requests/Sec" HigherIsBetter="true" />
+                <Counter Name="Passed Requests/Sec" HigherIsBetter="true" />
+                <Counter Name="Failed Requests/Sec" />
+                <Counter Name="Avg. First Byte Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Avg. Connection Wait Time">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="LoadTest:Page" />
+                        <RuleParameter Name="DependentCounter" Value="Avg. Page Time" />
+                        <RuleParameter Name="DependentInstance" Value="_Total" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.25" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.5" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Content Length" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:LogEntries">
+              <Counters>
+                <Counter Name="Total Log Entries" />
+                <Counter Name="Log Entries/Sec" />
+              </Counters>
+            </CounterCategory>
+          </CounterCategories>
+        </CounterSet>
+        <CounterSet Name="Controller" CounterSetType="Controller" LocId="CounterSet_Controller">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" Range="100" />
+                <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Output Queue Length">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+                <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+                <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" Range="100" />
+                <Counter Name="% Disk Time" Range="100" />
+                <Counter Name="% Disk Write Time" Range="100" />
+                <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+                <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" Range="100">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" Range="100" />
+                <Counter Name="% User Time" Range="100" />
+              </Counters>
+              <Instances>
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+                <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+                <Counter Name="% User Time" RangeGroup="Processor Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+              </Counters>
+              <Instances>
+                <Instance Name="QTController" />
+              </Instances>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+        <CounterSet Name="Agent" CounterSetType="Agent" LocId="CounterSet_Agent">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" Range="100" />
+                <Counter Name="Available MBytes" RangeGroup="Memory Bytes" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="100" />
+                        <RuleParameter Name="CriticalThreshold" Value="50" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Pool Nonpaged bytes" RangeGroup="Memory Bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Sent/sec" RangeGroup="Network Bytes" />
+                <Counter Name="Output Queue Length">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="1.5" />
+                        <RuleParameter Name="CriticalThreshold" Value="2" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Packets Received/sec" RangeGroup="Network Packets" />
+                <Counter Name="Packets Sent/sec" RangeGroup="Network Packets" />
+                <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
+                <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="Network Interface" />
+                        <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
+                        <RuleParameter Name="DependentInstance" Value="" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.6" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.7" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" Range="100" />
+                <Counter Name="% Disk Time" Range="100" />
+                <Counter Name="% Disk Write Time" Range="100" />
+                <Counter Name="% Idle Time" Range="100" HigherIsBetter="true">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="40" />
+                        <RuleParameter Name="CriticalThreshold" Value="20" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Disk Bytes/Read" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Transfer" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Bytes/Write" RangeGroup="DiskBytesRate" />
+                <Counter Name="Avg. Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Read Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk Write Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Current Disk Queue Length" RangeGroup="Disk Queue Length" />
+                <Counter Name="Avg. Disk sec/Read" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Transfer" RangeGroup="Disk sec" />
+                <Counter Name="Avg. Disk sec/Write" RangeGroup="Disk sec" />
+                <Counter Name="Disk Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Read Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Reads/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Transfers/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Disk Write Bytes/sec" RangeGroup="Disk Bytes sec" />
+                <Counter Name="Disk Writes/sec" RangeGroup="Disk Transfers sec" />
+                <Counter Name="Split IO/Sec" RangeGroup="Disk Transfers sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" Range="100">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="75" />
+                        <RuleParameter Name="CriticalThreshold" Value="90" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" Range="100" />
+                <Counter Name="% User Time" Range="100" />
+              </Counters>
+              <Instances>
+                <Instance Name="0" />
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" RangeGroup="Processor Time" />
+                <Counter Name="% Privileged Time" RangeGroup="Processor Time" />
+                <Counter Name="% User Time" RangeGroup="Processor Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Virtual Bytes" RangeGroup="Memory Bytes" />
+                <Counter Name="Working Set" RangeGroup="Memory Bytes" />
+              </Counters>
+              <Instances>
+                <Instance Name="devenv" />
+                <Instance Name="QTAgentService" />
+                <Instance Name="QTAgent" />
+                <Instance Name="QTAgent32" />
+                <Instance Name="QTDCAgent" />
+                <Instance Name="QTDCAgent32" />
+              </Instances>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="0" GraphName="" RunType="Local" />
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" RunType="Remote" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+      </CounterSets>
+      <RunConfigurations>
+        <RunConfiguration Name="Run Settings1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="600" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="5" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true">
+          <CounterSetMappings>
+            <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="LoadTest" />
+                <CounterSetReference CounterSetName="Controller" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+            <CounterSetMapping ComputerName="[AGENT MACHINES]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="Agent" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+          </CounterSetMappings>
+        </RunConfiguration>
+      </RunConfigurations>
+    </LoadTest>
+    <UnitTest name="addRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="ec07ab5b-4fa9-bdff-0466-b2f2dd14af3d">
+      <Execution id="90b04da5-5e38-4556-b25a-baafabc889e2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="OldPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="ed20047a-3110-0877-3507-be97b1a3c1c4">
+      <Execution id="bdf0f426-f5bf-4570-bf12-c2fc6ffc09aa" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OldPasswordTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="048c21fc-22db-258a-b14e-0727745eb56f" executionId="185a3eb2-28ff-400f-88b7-63c31dc8cb4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cc26711-067d-90ed-698f-eafeaf6ffdce" executionId="4dc0c43f-8c36-4e0c-a3b6-ef7396d707f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21be142e-5370-ae21-e2dc-be63484b5918" executionId="2978ed8d-4ce7-44e1-b6e0-1f633241ffc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43d82bd3-0aa5-484b-e322-8b19b19a32b8" executionId="a13d54d1-96b4-403b-ba2b-9c2290bfb077" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411" executionId="fb558b5c-dd07-40fc-843a-ab64620383af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00be0e1b-b601-c776-f2f0-30741904f1b1" executionId="3a184523-d95b-47b1-b87c-fa7b91910fff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1693e4db-f862-1c48-6c21-acdbd7afc342" executionId="5649823c-2d53-47be-8439-0be075d4ca53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" executionId="3aa34ec4-4539-412c-bbae-f116c47721ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9393a8b0-c66a-8c79-0e50-8db802539041" executionId="2a3a9e50-88c2-45d5-a0a3-60cb3bcfe193" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fbb13fc-94a9-6e99-97ca-45b994685fe9" executionId="8b872c0f-1137-4a70-939c-6e2eb727fdb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0500de23-aeeb-f6c6-c692-6fab2def3d9a" executionId="58e01e8b-18a4-419b-a806-88dfcc5b65c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03723c9d-78b0-9a97-d39b-ea9adc0b5032" executionId="b94ef9d3-033a-4ef3-a856-afaa77fe26c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" executionId="d727a6d3-22fb-4baa-b3f6-ee4a08571eb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6" executionId="85099866-ce70-4e6a-9539-845418096327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19c3c3f8-0de5-98b3-b920-2aa3a45b3c3a" executionId="50bbb51c-9723-44bc-b6a0-112cabaf7770" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb123c34-53d6-8589-a530-6019f5c69297" executionId="a950c613-d651-4648-8fde-1dfbe2af9130" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c13d659-810f-6384-0517-5350c94c0df9" executionId="f78220be-0906-4012-a5f8-8fb8933821fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d0c9798-42d3-4120-fbc0-fe8daffcbb33" executionId="354fdc24-9a2f-4159-a177-12ccdba48030" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74a55861-f0ce-65d1-fdbe-91c8dd52c914" executionId="a9aa6431-7699-40a2-8bf5-dfefe03d5dd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa374df2-50fc-43d7-2eb6-9baf87f49e00" executionId="5204591e-30af-46d8-a4ed-70848fc5053c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d26647c-42ba-c0b9-2ee7-5450efeecfd9" executionId="71730347-caec-44c7-b67d-1d9b985bcd7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a" executionId="1a3443ad-1b2a-4640-afe7-5cc5daae310a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77a4f4e8-b860-8022-afa0-04f704a7d75b" executionId="87a444af-20fa-43b5-a382-266997e5fa75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" executionId="e0c12f43-b093-4df0-954b-037d27ee4f1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfed860a-a785-21dc-6a75-52bf42003c70" executionId="0ea40c77-f7b9-46a0-a4ac-fb8017a6e233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd3310f4-b4bd-3ae6-6615-9138f25eecfe" executionId="ad06d700-e700-4024-af8e-57c54146acf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46346720-47cc-a1a5-62c4-07a919cfeca1" executionId="3d7c9e1b-3f4b-4d1b-a423-f789f6d41bf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f75630da-5c1f-a916-4e6a-f746a6a75e69" executionId="2149df9f-380e-46fa-8626-82b7808a5c9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11fe0478-6fbe-efe8-a7c0-eff58555c624" executionId="ba94fd32-65c2-4fdc-964c-e62a795244a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e51a2420-e972-e32d-c397-59bc0fd814dc" executionId="8a6961e4-2c6d-41df-93ed-1d5bdf1eae7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78b00d71-1a05-ac7a-2671-0133262f0f63" executionId="6fce931b-eb71-41bb-9ad8-c5369b225aab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8141c866-f817-7fc4-cbec-b68e4ba3e60d" executionId="12286ca7-d9e9-4064-b729-876856663024" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2da4bebc-3c59-5ad6-f979-253de0819eef" executionId="38573d5f-3328-44d2-94fe-613b269c792e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c4a3b81-d2e9-390e-4d47-debd5f30f955" executionId="c0f3dc6b-0bde-47b1-b1dd-5e1145cc144c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ece2e17-897e-6388-d7d8-b0118f0c769a" executionId="e50a3e75-49a0-48d2-89a5-a1d54ecc47df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry isTransparent="false" testId="74cc03d9-f4f9-4ea6-a883-6bcf1d017f2c" executionId="999368c1-0e35-4f29-9e63-25794e696a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="7bccd21c-8788-8f6b-24d4-252f03c32562" executionId="98efce68-99a3-4f2e-8ec7-6ca1f5bbe94a" parentExecutionId="999368c1-0e35-4f29-9e63-25794e696a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="1cc26711-067d-90ed-698f-eafeaf6ffdce" executionId="9aa6b1d3-bc8b-40bc-969f-8d5fccb0171f" parentExecutionId="999368c1-0e35-4f29-9e63-25794e696a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+    <TestEntry testId="5176054c-75c6-838b-4970-d3108d95b0c4" executionId="c0106c6c-f0bd-4809-8fba-4164e0325889" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d" executionId="5b1fd3e1-ce53-42df-9e7c-b44cb376461a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec07ab5b-4fa9-bdff-0466-b2f2dd14af3d" executionId="90b04da5-5e38-4556-b25a-baafabc889e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51975c1c-4e33-f71d-0de2-af5df9be6738" executionId="965f2265-36d3-4ecd-8468-baefdc2bb585" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="376d4788-8860-6174-3388-983e231b8249" executionId="a4c85b35-a9b4-496a-b6fc-b065bd65a429" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" executionId="6ac9a843-8ec2-4b67-8fdf-794778451dd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb8a6b75-14c9-d8c2-3ecb-8348bdaa6920" executionId="47d21381-51af-4907-ae19-7eca57252459" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfa3d854-20e9-afaf-6a5b-84d340d16475" executionId="a1411648-d584-4d2d-8804-1dab693257d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c5e27fe-0639-188a-d23c-50381212400b" executionId="9e4ab187-83c4-48ac-b71a-f26ed12657eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e82191a5-2f62-4d54-fa6f-90c6e1d348a4" executionId="bd114445-15e7-4af0-b533-aa5607b495e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd178d7f-5b38-e3e2-4e89-bcc5bc5dd2bc" executionId="b345f188-9fdb-4b23-a5fc-3b3644c6f275" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16a1e043-b2e2-a94b-4b08-b68a099fd758" executionId="be5641de-595e-451c-b984-0c7b1168af01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7d76670-4ea5-14d9-3740-a9f0c64dcb60" executionId="e95d5354-b746-4abc-bf83-9fcb52398d44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" executionId="f545fe50-c159-4dcf-9d18-1cf218f01f73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63d0853f-8615-5260-30bf-6de8d2e4f284" executionId="72e1b1f1-35a8-4679-9efd-bac19eced697" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cc9ea1a-a266-d60f-a5ef-ca71eb8d2701" executionId="7279dd2c-07f9-43dc-aeb2-73b21e78348b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48762070-4a75-7928-4c52-f763f6fa0806" executionId="d2475712-dc0d-469e-a645-2a11c32e9e38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="569db36b-aaf6-0347-4a22-0da6b66abb9d" executionId="44c5be5c-c929-4842-927c-8501bd0548e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bccd21c-8788-8f6b-24d4-252f03c32562" executionId="722d98f1-6609-42eb-9a03-b79d4ffba262" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7036f143-371c-6f5c-0405-5641f0559823" executionId="ce8fb60a-77f9-46ec-851a-1eabda585ea7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429d7597-ec02-7233-723e-1f5db3d511c3" executionId="d1f77b36-75cf-4160-8360-ca4307c48b46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d366f05-d5ed-f6a1-c3f5-0946714cc580" executionId="d3580605-4d68-42c3-8eb6-6e3a396d8655" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed20047a-3110-0877-3507-be97b1a3c1c4" executionId="bdf0f426-f5bf-4570-bf12-c2fc6ffc09aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a370041-7040-2e13-5863-bac5253f5ac5" executionId="2a158ea7-393e-475c-ac7c-ed80c97a2127" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3470532-85b6-cfc4-e394-8ff591a2d3f9" executionId="3f4d6043-b8ce-479f-a5db-450cb5400188" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="598a27e1-d830-9fbb-0960-89499962ae78" executionId="961a2e39-f257-4359-bfff-e2fb01f20074" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="713d46ab-6981-fbf5-ac44-81204a8a219e" executionId="edb16c58-3aa9-497d-a255-db38aa29aa3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" executionId="4fae89ae-fbf0-4209-a180-600cc5ef9863" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d19af3b-a1f7-93d9-f491-f55c1806498c" executionId="c86569ed-ae1e-42d1-b16b-2a064c5b3203" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9952bbc-fdc3-e8c2-a850-eb918257649d" executionId="b7af1f59-7989-4fce-8520-ae2a4eb9f251" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3123d3c1-b807-14df-258c-4bcb70729054" executionId="9503da93-e016-4563-bd8b-d9c73056e420" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45ccdcf3-4686-de7a-54f8-2bf19bffaf16" executionId="0270736d-62fb-4e48-81c9-3ed73de782d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17bdc49d-92ff-5313-d946-c26cad936b82" executionId="4cc9c6d3-b6af-4b3e-84f1-4a3093bb0703" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37d24a8f-6816-1971-ad17-a13c8dbb2c2f" executionId="561ab379-4ef8-45d5-86dd-b3cbee6723b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc0be8b2-6b98-51d5-aa58-deb93b8dda05" executionId="ccdb2280-1ae4-458b-b7a3-b86ae3574291" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54be62e-b6ef-0fd9-a706-6249527c3013" executionId="6ca113e7-6b15-406f-be33-b662de2bd771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29ea4fd2-7950-bb6f-6670-81b029ce6dc7" executionId="b829d25e-6d28-4728-90b0-8d8101abff1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" executionId="bc404c9b-55c1-4ea3-abce-ed14703bf5d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77d7d89d-1e6e-7b7f-2b0f-a16d7a49ede6" executionId="11b0a3ef-31b1-4a30-9898-c7627d0c5536" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="185a3eb2-28ff-400f-88b7-63c31dc8cb4a" testId="048c21fc-22db-258a-b14e-0727745eb56f" testName="CompanyControllerConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="185a3eb2-28ff-400f-88b7-63c31dc8cb4a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4dc0c43f-8c36-4e0c-a3b6-ef7396d707f4" testId="1cc26711-067d-90ed-698f-eafeaf6ffdce" testName="getAPointsTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dc0c43f-8c36-4e0c-a3b6-ef7396d707f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="2978ed8d-4ce7-44e1-b6e0-1f633241ffc2" testId="21be142e-5370-ae21-e2dc-be63484b5918" testName="randomNumberTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2978ed8d-4ce7-44e1-b6e0-1f633241ffc2">
+    </UnitTestResult>
+    <UnitTestResult executionId="a13d54d1-96b4-403b-ba2b-9c2290bfb077" testId="43d82bd3-0aa5-484b-e322-8b19b19a32b8" testName="NewPasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a13d54d1-96b4-403b-ba2b-9c2290bfb077">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb558b5c-dd07-40fc-843a-ab64620383af" testId="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411" testName="CompanyLogoTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb558b5c-dd07-40fc-843a-ab64620383af">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a184523-d95b-47b1-b87c-fa7b91910fff" testId="00be0e1b-b601-c776-f2f0-30741904f1b1" testName="PasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a184523-d95b-47b1-b87c-fa7b91910fff">
+    </UnitTestResult>
+    <UnitTestResult executionId="5649823c-2d53-47be-8439-0be075d4ca53" testId="1693e4db-f862-1c48-6c21-acdbd7afc342" testName="removeRewardsAccountTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5649823c-2d53-47be-8439-0be075d4ca53">
+    </UnitTestResult>
+    <UnitTestResult executionId="3aa34ec4-4539-412c-bbae-f116c47721ae" testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" testName="ChangePasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aa34ec4-4539-412c-bbae-f116c47721ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a3a9e50-88c2-45d5-a0a3-60cb3bcfe193" testId="9393a8b0-c66a-8c79-0e50-8db802539041" testName="Index" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a3a9e50-88c2-45d5-a0a3-60cb3bcfe193">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b872c0f-1137-4a70-939c-6e2eb727fdb4" testId="2fbb13fc-94a9-6e99-97ca-45b994685fe9" testName="AccountControllerConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b872c0f-1137-4a70-939c-6e2eb727fdb4">
+    </UnitTestResult>
+    <UnitTestResult executionId="58e01e8b-18a4-419b-a806-88dfcc5b65c7" testId="0500de23-aeeb-f6c6-c692-6fab2def3d9a" testName="ConfirmPasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58e01e8b-18a4-419b-a806-88dfcc5b65c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="b94ef9d3-033a-4ef3-a856-afaa77fe26c2" testId="03723c9d-78b0-9a97-d39b-ea9adc0b5032" testName="removeRewardsAccountTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b94ef9d3-033a-4ef3-a856-afaa77fe26c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d727a6d3-22fb-4baa-b3f6-ee4a08571eb8" testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" testName="ChangePasswordTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d727a6d3-22fb-4baa-b3f6-ee4a08571eb8">
+    </UnitTestResult>
+    <UnitTestResult executionId="85099866-ce70-4e6a-9539-845418096327" testId="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6" testName="RegisterModelConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85099866-ce70-4e6a-9539-845418096327">
+    </UnitTestResult>
+    <UnitTestResult executionId="50bbb51c-9723-44bc-b6a0-112cabaf7770" testId="19c3c3f8-0de5-98b3-b920-2aa3a45b3c3a" testName="getRewardsAccountTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50bbb51c-9723-44bc-b6a0-112cabaf7770">
+    </UnitTestResult>
+    <UnitTestResult executionId="a950c613-d651-4648-8fde-1dfbe2af9130" testId="cb123c34-53d6-8589-a530-6019f5c69297" testName="ManageUserControllerConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a950c613-d651-4648-8fde-1dfbe2af9130">
+    </UnitTestResult>
+    <UnitTestResult executionId="f78220be-0906-4012-a5f8-8fb8933821fd" testId="1c13d659-810f-6384-0517-5350c94c0df9" testName="CodedUITestMethod1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f78220be-0906-4012-a5f8-8fb8933821fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="354fdc24-9a2f-4159-a177-12ccdba48030" testId="6d0c9798-42d3-4120-fbc0-fe8daffcbb33" testName="RememberMeTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="354fdc24-9a2f-4159-a177-12ccdba48030">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9aa6431-7699-40a2-8bf5-dfefe03d5dd9" testId="74a55861-f0ce-65d1-fdbe-91c8dd52c914" testName="getCompanyLogoIDTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9aa6431-7699-40a2-8bf5-dfefe03d5dd9">
+    </UnitTestResult>
+    <UnitTestResult executionId="5204591e-30af-46d8-a4ed-70848fc5053c" testId="aa374df2-50fc-43d7-2eb6-9baf87f49e00" testName="checkUserTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5204591e-30af-46d8-a4ed-70848fc5053c">
+    </UnitTestResult>
+    <UnitTestResult executionId="71730347-caec-44c7-b67d-1d9b985bcd7a" testId="1d26647c-42ba-c0b9-2ee7-5450efeecfd9" testName="getAllRewardsAccountTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71730347-caec-44c7-b67d-1d9b985bcd7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a3443ad-1b2a-4640-afe7-5cc5daae310a" testId="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a" testName="RewardAccountConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a3443ad-1b2a-4640-afe7-5cc5daae310a">
+    </UnitTestResult>
+    <UnitTestResult executionId="87a444af-20fa-43b5-a382-266997e5fa75" testId="77a4f4e8-b860-8022-afa0-04f704a7d75b" testName="superUserTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87a444af-20fa-43b5-a382-266997e5fa75">
+    </UnitTestResult>
+    <UnitTestResult executionId="e0c12f43-b093-4df0-954b-037d27ee4f1a" testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" testName="RegisterTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0c12f43-b093-4df0-954b-037d27ee4f1a">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ea40c77-f7b9-46a0-a4ac-fb8017a6e233" testId="dfed860a-a785-21dc-6a75-52bf42003c70" testName="RegisterTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ea40c77-f7b9-46a0-a4ac-fb8017a6e233">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad06d700-e700-4024-af8e-57c54146acf5" testId="bd3310f4-b4bd-3ae6-6615-9138f25eecfe" testName="CompanyTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad06d700-e700-4024-af8e-57c54146acf5">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d7c9e1b-3f4b-4d1b-a423-f789f6d41bf3" testId="46346720-47cc-a1a5-62c4-07a919cfeca1" testName="OneRewardsInitializerConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d7c9e1b-3f4b-4d1b-a423-f789f6d41bf3">
+    </UnitTestResult>
+    <UnitTestResult executionId="2149df9f-380e-46fa-8626-82b7808a5c9f" testId="f75630da-5c1f-a916-4e6a-f746a6a75e69" testName="PointsTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2149df9f-380e-46fa-8626-82b7808a5c9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba94fd32-65c2-4fdc-964c-e62a795244a4" testId="11fe0478-6fbe-efe8-a7c0-eff58555c624" testName="Contact" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba94fd32-65c2-4fdc-964c-e62a795244a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a6961e4-2c6d-41df-93ed-1d5bdf1eae7b" testId="e51a2420-e972-e32d-c397-59bc0fd814dc" testName="getCompanyNamesTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a6961e4-2c6d-41df-93ed-1d5bdf1eae7b">
+    </UnitTestResult>
+    <UnitTestResult executionId="6fce931b-eb71-41bb-9ad8-c5369b225aab" testId="78b00d71-1a05-ac7a-2671-0133262f0f63" testName="EmailTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fce931b-eb71-41bb-9ad8-c5369b225aab">
+    </UnitTestResult>
+    <UnitTestResult executionId="12286ca7-d9e9-4064-b729-876856663024" testId="8141c866-f817-7fc4-cbec-b68e4ba3e60d" testName="RewardAccountIDTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12286ca7-d9e9-4064-b729-876856663024">
+    </UnitTestResult>
+    <UnitTestResult executionId="38573d5f-3328-44d2-94fe-613b269c792e" testId="2da4bebc-3c59-5ad6-f979-253de0819eef" testName="CompanyIDTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38573d5f-3328-44d2-94fe-613b269c792e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0f3dc6b-0bde-47b1-b1dd-5e1145cc144c" testId="5c4a3b81-d2e9-390e-4d47-debd5f30f955" testName="UserNameTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0f3dc6b-0bde-47b1-b1dd-5e1145cc144c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e50a3e75-49a0-48d2-89a5-a1d54ecc47df" testId="9ece2e17-897e-6388-d7d8-b0118f0c769a" testName="TotalPointsTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e50a3e75-49a0-48d2-89a5-a1d54ecc47df">
+    </UnitTestResult>
+    <LoadTestResult executionId="999368c1-0e35-4f29-9e63-25794e696a0e" testId="74cc03d9-f4f9-4ea6-a883-6bcf1d017f2c" testName="LoadTest1" computerName="QIQSTANB222" duration="00:02:06.4852345" startTime="2012-11-18T16:23:09.2940950+00:00" endTime="2012-11-18T16:25:15.7793295+00:00" testType="fa4c85ff-1236-4463-b954-3ba2f0eabd95" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="999368c1-0e35-4f29-9e63-25794e696a0e" runId="3" controllerStartTime="2012-11-18T16:23:09.2940950+00:00" runStatus="Stopped" resultsStoreType="Database" resultsRepositoryConnectString="LAs4ogoKlDc7IfkNDMMeCG05jfdXN/wFFecZZsJ7zf4ZUpA7IbsdLxSi5CR4EcIfzxW9BcRIMGd28RBUrOZPDb7jAXQQiPPtoMNhyf9kK6WhU4ZbL8OIQhZNciulCl0C" loadTestDuration="600" loadTestWarmupTime="0" previouslyViewed="false">
+      <Summary>
+        <PerformanceCounterResults>
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="QIQSTANB222" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" value="25" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="QIQSTANB222" categoryName="LoadTest:Test" counterName="Total Tests" instanceName="_Total" value="22669" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="QIQSTANB222" categoryName="LoadTest:Test" counterName="Failed Tests" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="QIQSTANB222" categoryName="LoadTest:Test" counterName="Tests/Sec" instanceName="_Total" value="179.2225" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="QIQSTANB222" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="_Total" value="0.0168468822" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Processor" counterName="% Processor Time" instanceName="_Total" value="15.9691544" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="true" machineName="QIQSTANB222" categoryName="Memory" counterName="Available MBytes" instanceName="-" value="378" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="virtualbox host-only ethernet adapter" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{35bbdb46-b503-441b-9fef-21c9a9db9428}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="intel[r] centrino[r] advanced-n 6200 agn" value="418112.438" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="teredo tunneling pseudo-interface" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.home" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.qiq.local" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{16a2337e-3453-44c4-978e-c3bec1455a25}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="intel[r] 82577lm gigabit network connection" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="virtualbox host-only ethernet adapter" value="53.9203529" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{35bbdb46-b503-441b-9fef-21c9a9db9428}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="intel[r] centrino[r] advanced-n 6200 agn" value="9005.454" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="teredo tunneling pseudo-interface" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.home" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.qiq.local" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{16a2337e-3453-44c4-978e-c3bec1455a25}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="QIQSTANB222" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="intel[r] 82577lm gigabit network connection" value="0" />
+        </PerformanceCounterResults>
+        <TestSummaries>
+          <TestSummary scenarioName="Scenario1" testName="getAPointsTest" totalTests="11449" testsFailed="0" averageDuration="26" />
+          <TestSummary scenarioName="Scenario1" testName="LoginTest" totalTests="11220" testsFailed="0" averageDuration="6" />
+        </TestSummaries>
+      </Summary>
+    </LoadTestResult>
+    <UnitTestResult executionId="c0106c6c-f0bd-4809-8fba-4164e0325889" testId="5176054c-75c6-838b-4970-d3108d95b0c4" testName="autenticatRegisteredTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0106c6c-f0bd-4809-8fba-4164e0325889">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b1fd3e1-ce53-42df-9e7c-b44cb376461a" testId="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d" testName="UserNameTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b1fd3e1-ce53-42df-9e7c-b44cb376461a">
+    </UnitTestResult>
+    <UnitTestResult executionId="90b04da5-5e38-4556-b25a-baafabc889e2" testId="ec07ab5b-4fa9-bdff-0466-b2f2dd14af3d" testName="addRewardsAccountTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90b04da5-5e38-4556-b25a-baafabc889e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="965f2265-36d3-4ecd-8468-baefdc2bb585" testId="51975c1c-4e33-f71d-0de2-af5df9be6738" testName="CompanyIDTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="965f2265-36d3-4ecd-8468-baefdc2bb585">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4c85b35-a9b4-496a-b6fc-b065bd65a429" testId="376d4788-8860-6174-3388-983e231b8249" testName="CreateTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4c85b35-a9b4-496a-b6fc-b065bd65a429">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ac9a843-8ec2-4b67-8fdf-794778451dd2" testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" testName="CreateTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ac9a843-8ec2-4b67-8fdf-794778451dd2">
+    </UnitTestResult>
+    <UnitTestResult executionId="47d21381-51af-4907-ae19-7eca57252459" testId="bb8a6b75-14c9-d8c2-3ecb-8348bdaa6920" testName="getCompanyIDTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47d21381-51af-4907-ae19-7eca57252459">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1411648-d584-4d2d-8804-1dab693257d3" testId="bfa3d854-20e9-afaf-6a5b-84d340d16475" testName="ConfirmPasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1411648-d584-4d2d-8804-1dab693257d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e4ab187-83c4-48ac-b71a-f26ed12657eb" testId="9c5e27fe-0639-188a-d23c-50381212400b" testName="getCompanysTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e4ab187-83c4-48ac-b71a-f26ed12657eb">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd114445-15e7-4af0-b533-aa5607b495e6" testId="e82191a5-2f62-4d54-fa6f-90c6e1d348a4" testName="updatePointsTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd114445-15e7-4af0-b533-aa5607b495e6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b345f188-9fdb-4b23-a5fc-3b3644c6f275" testId="bd178d7f-5b38-e3e2-4e89-bcc5bc5dd2bc" testName="CompanyConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b345f188-9fdb-4b23-a5fc-3b3644c6f275">
+    </UnitTestResult>
+    <UnitTestResult executionId="be5641de-595e-451c-b984-0c7b1168af01" testId="16a1e043-b2e2-a94b-4b08-b68a099fd758" testName="LoginModelConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be5641de-595e-451c-b984-0c7b1168af01">
+    </UnitTestResult>
+    <UnitTestResult executionId="e95d5354-b746-4abc-bf83-9fcb52398d44" testId="f7d76670-4ea5-14d9-3740-a9f0c64dcb60" testName="CompanyRewardsLinkTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e95d5354-b746-4abc-bf83-9fcb52398d44">
+    </UnitTestResult>
+    <UnitTestResult executionId="f545fe50-c159-4dcf-9d18-1cf218f01f73" testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" testName="ChangePasswordSuccessTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f545fe50-c159-4dcf-9d18-1cf218f01f73">
+    </UnitTestResult>
+    <UnitTestResult executionId="72e1b1f1-35a8-4679-9efd-bac19eced697" testId="63d0853f-8615-5260-30bf-6de8d2e4f284" testName="LoginTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72e1b1f1-35a8-4679-9efd-bac19eced697">
+    </UnitTestResult>
+    <UnitTestResult executionId="7279dd2c-07f9-43dc-aeb2-73b21e78348b" testId="2cc9ea1a-a266-d60f-a5ef-ca71eb8d2701" testName="UtilitiesConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7279dd2c-07f9-43dc-aeb2-73b21e78348b">
+    </UnitTestResult>
+    <UnitTestResult executionId="d2475712-dc0d-469e-a645-2a11c32e9e38" testId="48762070-4a75-7928-4c52-f763f6fa0806" testName="getTPointsTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2475712-dc0d-469e-a645-2a11c32e9e38">
+    </UnitTestResult>
+    <UnitTestResult executionId="44c5be5c-c929-4842-927c-8501bd0548e2" testId="569db36b-aaf6-0347-4a22-0da6b66abb9d" testName="UserNameTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44c5be5c-c929-4842-927c-8501bd0548e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="722d98f1-6609-42eb-9a03-b79d4ffba262" testId="7bccd21c-8788-8f6b-24d4-252f03c32562" testName="LoginTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="722d98f1-6609-42eb-9a03-b79d4ffba262">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce8fb60a-77f9-46ec-851a-1eabda585ea7" testId="7036f143-371c-6f5c-0405-5641f0559823" testName="CompanyNameTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce8fb60a-77f9-46ec-851a-1eabda585ea7">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1f77b36-75cf-4160-8360-ca4307c48b46" testId="429d7597-ec02-7233-723e-1f5db3d511c3" testName="OneRewardsContextConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1f77b36-75cf-4160-8360-ca4307c48b46">
+    </UnitTestResult>
+    <UnitTestResult executionId="d3580605-4d68-42c3-8eb6-6e3a396d8655" testId="5d366f05-d5ed-f6a1-c3f5-0946714cc580" testName="PasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3580605-4d68-42c3-8eb6-6e3a396d8655">
+    </UnitTestResult>
+    <UnitTestResult executionId="bdf0f426-f5bf-4570-bf12-c2fc6ffc09aa" testId="ed20047a-3110-0877-3507-be97b1a3c1c4" testName="OldPasswordTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdf0f426-f5bf-4570-bf12-c2fc6ffc09aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a158ea7-393e-475c-ac7c-ed80c97a2127" testId="0a370041-7040-2e13-5863-bac5253f5ac5" testName="RewardAccountsTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a158ea7-393e-475c-ac7c-ed80c97a2127">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f4d6043-b8ce-479f-a5db-450cb5400188" testId="c3470532-85b6-cfc4-e394-8ff591a2d3f9" testName="ConvertImageFiletoBytesTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f4d6043-b8ce-479f-a5db-450cb5400188">
+    </UnitTestResult>
+    <UnitTestResult executionId="961a2e39-f257-4359-bfff-e2fb01f20074" testId="598a27e1-d830-9fbb-0960-89499962ae78" testName="autenticateUnregisteredTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="961a2e39-f257-4359-bfff-e2fb01f20074">
+    </UnitTestResult>
+    <UnitTestResult executionId="edb16c58-3aa9-497d-a255-db38aa29aa3b" testId="713d46ab-6981-fbf5-ac44-81204a8a219e" testName="CreateTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edb16c58-3aa9-497d-a255-db38aa29aa3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="4fae89ae-fbf0-4209-a180-600cc5ef9863" testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" testName="VerifyAppDomainHasConfigurationSettings" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fae89ae-fbf0-4209-a180-600cc5ef9863">
+    </UnitTestResult>
+    <UnitTestResult executionId="c86569ed-ae1e-42d1-b16b-2a064c5b3203" testId="5d19af3b-a1f7-93d9-f491-f55c1806498c" testName="CompanysTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c86569ed-ae1e-42d1-b16b-2a064c5b3203">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7af1f59-7989-4fce-8520-ae2a4eb9f251" testId="f9952bbc-fdc3-e8c2-a850-eb918257649d" testName="getAllRewardsAccountTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7af1f59-7989-4fce-8520-ae2a4eb9f251">
+    </UnitTestResult>
+    <UnitTestResult executionId="9503da93-e016-4563-bd8b-d9c73056e420" testId="3123d3c1-b807-14df-258c-4bcb70729054" testName="getCompanyLogoTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9503da93-e016-4563-bd8b-d9c73056e420">
+    </UnitTestResult>
+    <UnitTestResult executionId="0270736d-62fb-4e48-81c9-3ed73de782d5" testId="45ccdcf3-4686-de7a-54f8-2bf19bffaf16" testName="ChangePasswordModelConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0270736d-62fb-4e48-81c9-3ed73de782d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="4cc9c6d3-b6af-4b3e-84f1-4a3093bb0703" testId="17bdc49d-92ff-5313-d946-c26cad936b82" testName="CreateTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cc9c6d3-b6af-4b3e-84f1-4a3093bb0703">
+    </UnitTestResult>
+    <UnitTestResult executionId="561ab379-4ef8-45d5-86dd-b3cbee6723b6" testId="37d24a8f-6816-1971-ad17-a13c8dbb2c2f" testName="updatePointsTest2" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="561ab379-4ef8-45d5-86dd-b3cbee6723b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="ccdb2280-1ae4-458b-b7a3-b86ae3574291" testId="cc0be8b2-6b98-51d5-aa58-deb93b8dda05" testName="updatePointsTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccdb2280-1ae4-458b-b7a3-b86ae3574291">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ca113e7-6b15-406f-be33-b662de2bd771" testId="f54be62e-b6ef-0fd9-a706-6249527c3013" testName="getAPointsTest1" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ca113e7-6b15-406f-be33-b662de2bd771">
+    </UnitTestResult>
+    <UnitTestResult executionId="b829d25e-6d28-4728-90b0-8d8101abff1e" testId="29ea4fd2-7950-bb6f-6670-81b029ce6dc7" testName="About" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b829d25e-6d28-4728-90b0-8d8101abff1e">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc404c9b-55c1-4ea3-abce-ed14703bf5d2" testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" testName="RewardAccountControllerConstructorTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc404c9b-55c1-4ea3-abce-ed14703bf5d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="11b0a3ef-31b1-4a30-9898-c7627d0c5536" testId="77d7d89d-1e6e-7b7f-2b0f-a16d7a49ede6" testName="addDuplicateRewardsAccountTest" computerName="QIQSTANB222" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11b0a3ef-31b1-4a30-9898-c7627d0c5536">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1ff70c92-027b-4bc7-9355-9c594a7e5b1e" name="bhurtunt@QIQSTANB222 2012-09-24 17:29:10" runUser="QIQ\bhurtunt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc37a548-0a1e-4665-bb19-abe0d6af83c3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="bhurtunt_QIQSTANB222 2012-09-24 17_29_10">
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\bin\OneRewardsMvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-24T17:29:10.0821632+01:00" queuing="2012-09-24T17:29:11.8605746+01:00" start="2012-09-24T17:29:12.0477758+01:00" finish="2012-09-24T17:30:53.3392251+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="38" executed="38" passed="5" error="0" failed="33" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeleteConfirmedTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e8fb877f-cafa-d759-7519-9c50caaa42d4">
+      <Execution id="d2aba0fa-9cdf-4230-a41c-b34bb6e65812" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteConfirmedTest" />
+    </UnitTest>
+    <UnitTest name="getImgTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9d54a033-daac-35a4-6068-e13a27fab813">
+      <Execution id="b580e5fd-da47-4005-bda6-156c7f9da09a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getImgTest" />
+    </UnitTest>
+    <UnitTest name="LogOffTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="261870ee-6bfd-4762-8e06-98bc0c4eb6bc">
+      <Execution id="b28dc141-a669-415b-b823-dce93813f4b0" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOffTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="cd1916aa-45f1-3f28-ca10-4287c7bb63ee">
+      <Execution id="b1dd5b08-08d5-4b32-b286-b593d9a00bb5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f">
+      <Execution id="04037785-b3a4-405b-838a-2890c8740082" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+    </UnitTest>
+    <UnitTest name="RegisterTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99">
+      <Execution id="bbb7f9b3-4370-412f-b1d0-737144718248" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="376d4788-8860-6174-3388-983e231b8249">
+      <Execution id="aff5a2eb-1af3-4d8d-b481-a0244fdcb048" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+    <UnitTest name="randomNumberTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="21be142e-5370-ae21-e2dc-be63484b5918">
+      <Execution id="d5fd4ffc-e916-47d9-887c-a5ec1b16edd9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="randomNumberTest" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="29ea4fd2-7950-bb6f-6670-81b029ce6dc7">
+      <Execution id="901dd3c0-81ee-4591-bb47-73ae49b50e18" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189">
+      <Execution id="f041cb91-2c40-4532-ae91-63364bebb100" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e83d5e76-81cb-7aa5-6350-533ceff0a688">
+      <Execution id="9a24056e-25b4-49ac-ba6b-1bfe501be1d4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest1" />
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="be281358-853b-1fea-8ed3-2f2e8b12cbc5">
+      <Execution id="acebdc2d-6a03-493c-848b-dd387f53fd7b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9393a8b0-c66a-8c79-0e50-8db802539041">
+      <Execution id="fd623aa2-eac5-477d-980a-d0ddf5bdcce6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="CompanyControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="048c21fc-22db-258a-b14e-0727745eb56f">
+      <Execution id="c6aa559c-c3a4-40c5-a18f-6e491f2fe664" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ErrorCodeToStringTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5db83673-b90c-d484-a502-9929e051ad9a">
+      <DeploymentItems>
+        <DeploymentItem filename="OneRewardsMvc.dll" />
+      </DeploymentItems>
+      <Execution id="194e17de-c23f-4671-9214-bc30e7000ecd" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ErrorCodeToStringTest" />
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4">
+      <Execution id="9dfd0481-2639-43aa-a023-427b1cb92fcd" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="b6efabb5-ab30-c84c-1c96-a4c8b0070e25">
+      <Execution id="e361144e-ce48-4c09-83f0-38ded822a868" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="RegisterTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="dfed860a-a785-21dc-6a75-52bf42003c70">
+      <Execution id="ebfc59f5-ad0f-4b6c-8248-4e1d6a8aa7e9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest1" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="713d46ab-6981-fbf5-ac44-81204a8a219e">
+      <Execution id="be38f3d0-99bc-44f3-94ce-80bc2f8495bc" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="DeleteConfirmedTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="136faad9-71a8-a61d-e2d0-45f7aaae8929">
+      <Execution id="81df77b9-d475-4107-9122-24b67e80e92c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteConfirmedTest" />
+    </UnitTest>
+    <UnitTest name="ManageUserControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="cb123c34-53d6-8589-a530-6019f5c69297">
+      <Execution id="aafd2d4f-3f96-45e3-aa08-3d53b4fb275e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ManageUserControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="17bdc49d-92ff-5313-d946-c26cad936b82">
+      <Execution id="a16fb55e-b99b-4c99-8911-cd0c040234d6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+    <UnitTest name="getImgTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="173144bc-e6c4-914d-f1ef-1f54e69b13cd">
+      <Execution id="a9d10306-0046-41b0-aa26-0003699adebe" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getImgTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccessTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5">
+      <Execution id="29020e90-1935-4b6c-b939-1640378a0df5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccessTest" />
+    </UnitTest>
+    <UnitTest name="EditTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="dad2e78e-00fc-88b3-fd98-c139a7262621">
+      <Execution id="7ebc3a12-e241-4cfd-ba5d-1fa99db3946c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest1" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="74ac799f-e2d2-c781-beb2-a4a8877d42d6">
+      <Execution id="60b9dced-2d60-42de-a220-5a74ee9993bc" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="b5b4cb24-5563-1383-6cd4-4e0379aff743">
+      <Execution id="f0c2fdb3-1464-4092-894a-535806c4e4d0" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="52b67e0d-05da-bc84-8704-39676712c651">
+      <Execution id="3f380e34-13df-421b-8c8c-4fe397e25da7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="DeleteConfirmedTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="51172c26-1e69-f479-42c2-1d171b70610e">
+      <Execution id="2a3f9f74-405e-46ce-a640-09c9c38cd3c5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteConfirmedTest" />
+    </UnitTest>
+    <UnitTest name="LoginTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7bccd21c-8788-8f6b-24d4-252f03c32562">
+      <Execution id="62722bbf-3ad5-4363-a3a0-58f9b2a4e82f" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="19b2f990-75a9-1a45-e5ae-b316dcaf04c2">
+      <Execution id="7022e365-f406-492a-ac52-a1ecc51b8c62" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="11fe0478-6fbe-efe8-a7c0-eff58555c624">
+      <Execution id="31c92dc3-9c39-4a2b-b346-161c6b297761" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="GetErrorsFromModelStateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="3f9a243c-61d8-beb6-107c-56c273ccd28f">
+      <DeploymentItems>
+        <DeploymentItem filename="OneRewardsMvc.dll" />
+      </DeploymentItems>
+      <Execution id="c1b30659-d53c-42a0-8527-36baa758b3e2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetErrorsFromModelStateTest" />
+    </UnitTest>
+    <UnitTest name="RewardAccountControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="47c84612-e9a7-0037-f786-2df27ea2d7d5">
+      <Execution id="de82a41a-1b07-42df-91d9-13ddaa32fe98" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LoginTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="63d0853f-8615-5260-30bf-6de8d2e4f284">
+      <Execution id="e7192e83-87c6-4a13-a4c6-65bdaa06c0c7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest1" />
+    </UnitTest>
+    <UnitTest name="EditTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="4adb521e-2a23-1e40-b32a-1a7bf1cc59c1">
+      <Execution id="6f175ebb-5f7f-4f77-aff4-73f8e9a9a63c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest1" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2">
+      <Execution id="7121380e-795d-43d9-8c44-95e338923935" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203">
+      <Execution id="fc10f991-fc5d-4092-b45e-d3770e483524" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="048c21fc-22db-258a-b14e-0727745eb56f" executionId="c6aa559c-c3a4-40c5-a18f-6e491f2fe664" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21be142e-5370-ae21-e2dc-be63484b5918" executionId="d5fd4ffc-e916-47d9-887c-a5ec1b16edd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" executionId="f041cb91-2c40-4532-ae91-63364bebb100" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9393a8b0-c66a-8c79-0e50-8db802539041" executionId="fd623aa2-eac5-477d-980a-d0ddf5bdcce6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be281358-853b-1fea-8ed3-2f2e8b12cbc5" executionId="acebdc2d-6a03-493c-848b-dd387f53fd7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" executionId="9a24056e-25b4-49ac-ba6b-1bfe501be1d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb123c34-53d6-8589-a530-6019f5c69297" executionId="aafd2d4f-3f96-45e3-aa08-3d53b4fb275e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dad2e78e-00fc-88b3-fd98-c139a7262621" executionId="7ebc3a12-e241-4cfd-ba5d-1fa99db3946c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74ac799f-e2d2-c781-beb2-a4a8877d42d6" executionId="60b9dced-2d60-42de-a220-5a74ee9993bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" executionId="bbb7f9b3-4370-412f-b1d0-737144718248" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2" executionId="7121380e-795d-43d9-8c44-95e338923935" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfed860a-a785-21dc-6a75-52bf42003c70" executionId="ebfc59f5-ad0f-4b6c-8248-4e1d6a8aa7e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52b67e0d-05da-bc84-8704-39676712c651" executionId="3f380e34-13df-421b-8c8c-4fe397e25da7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11fe0478-6fbe-efe8-a7c0-eff58555c624" executionId="31c92dc3-9c39-4a2b-b346-161c6b297761" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="173144bc-e6c4-914d-f1ef-1f54e69b13cd" executionId="a9d10306-0046-41b0-aa26-0003699adebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4" executionId="9dfd0481-2639-43aa-a023-427b1cb92fcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8fb877f-cafa-d759-7519-9c50caaa42d4" executionId="d2aba0fa-9cdf-4230-a41c-b34bb6e65812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d54a033-daac-35a4-6068-e13a27fab813" executionId="b580e5fd-da47-4005-bda6-156c7f9da09a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="376d4788-8860-6174-3388-983e231b8249" executionId="aff5a2eb-1af3-4d8d-b481-a0244fdcb048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" executionId="fc10f991-fc5d-4092-b45e-d3770e483524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd1916aa-45f1-3f28-ca10-4287c7bb63ee" executionId="b1dd5b08-08d5-4b32-b286-b593d9a00bb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6efabb5-ab30-c84c-1c96-a4c8b0070e25" executionId="e361144e-ce48-4c09-83f0-38ded822a868" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" executionId="29020e90-1935-4b6c-b939-1640378a0df5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63d0853f-8615-5260-30bf-6de8d2e4f284" executionId="e7192e83-87c6-4a13-a4c6-65bdaa06c0c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5db83673-b90c-d484-a502-9929e051ad9a" executionId="194e17de-c23f-4671-9214-bc30e7000ecd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19b2f990-75a9-1a45-e5ae-b316dcaf04c2" executionId="7022e365-f406-492a-ac52-a1ecc51b8c62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bccd21c-8788-8f6b-24d4-252f03c32562" executionId="62722bbf-3ad5-4363-a3a0-58f9b2a4e82f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="261870ee-6bfd-4762-8e06-98bc0c4eb6bc" executionId="b28dc141-a669-415b-b823-dce93813f4b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4adb521e-2a23-1e40-b32a-1a7bf1cc59c1" executionId="6f175ebb-5f7f-4f77-aff4-73f8e9a9a63c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5b4cb24-5563-1383-6cd4-4e0379aff743" executionId="f0c2fdb3-1464-4092-894a-535806c4e4d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="713d46ab-6981-fbf5-ac44-81204a8a219e" executionId="be38f3d0-99bc-44f3-94ce-80bc2f8495bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="136faad9-71a8-a61d-e2d0-45f7aaae8929" executionId="81df77b9-d475-4107-9122-24b67e80e92c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17bdc49d-92ff-5313-d946-c26cad936b82" executionId="a16fb55e-b99b-4c99-8911-cd0c040234d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f9a243c-61d8-beb6-107c-56c273ccd28f" executionId="c1b30659-d53c-42a0-8527-36baa758b3e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f" executionId="04037785-b3a4-405b-838a-2890c8740082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29ea4fd2-7950-bb6f-6670-81b029ce6dc7" executionId="901dd3c0-81ee-4591-bb47-73ae49b50e18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" executionId="de82a41a-1b07-42df-91d9-13ddaa32fe98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51172c26-1e69-f479-42c2-1d171b70610e" executionId="2a3f9f74-405e-46ce-a640-09c9c38cd3c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c6aa559c-c3a4-40c5-a18f-6e491f2fe664" testId="048c21fc-22db-258a-b14e-0727745eb56f" testName="CompanyControllerConstructorTest" computerName="QIQSTANB222" duration="00:00:01.1125878" startTime="2012-09-24T17:29:12.0945761+01:00" endTime="2012-09-24T17:29:16.0726016+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6aa559c-c3a4-40c5-a18f-6e491f2fe664">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5fd4ffc-e916-47d9-887c-a5ec1b16edd9" testId="21be142e-5370-ae21-e2dc-be63484b5918" testName="randomNumberTest" computerName="QIQSTANB222" duration="00:00:00.2650288" startTime="2012-09-24T17:29:16.1194019+01:00" endTime="2012-09-24T17:29:16.4158038+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5fd4ffc-e916-47d9-887c-a5ec1b16edd9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.RewardAccountControllerTest.randomNumberTest threw exception: 
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex</Message>
+          <StackTrace>    at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at OneRewardsMvc.Controllers.RewardAccountController.randomNumber(Int64 number) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\RewardAccountController.cs:line 138
+   at OneRewardsMvc.Tests.RewardAccountControllerTest.randomNumberTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 269
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f041cb91-2c40-4532-ae91-63364bebb100" testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" testName="ChangePasswordTest" computerName="QIQSTANB222" duration="00:00:00.1238323" startTime="2012-09-24T17:29:16.4782042+01:00" endTime="2012-09-24T17:29:16.6342052+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f041cb91-2c40-4532-ae91-63364bebb100">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.ChangePasswordTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd623aa2-eac5-477d-980a-d0ddf5bdcce6" testId="9393a8b0-c66a-8c79-0e50-8db802539041" testName="Index" computerName="QIQSTANB222" duration="00:00:00.4270153" startTime="2012-09-24T17:29:16.6810055+01:00" endTime="2012-09-24T17:29:17.1334084+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd623aa2-eac5-477d-980a-d0ddf5bdcce6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Modify this template to kick-start your ASP.NET MVC application.&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   at CallSite.Target(Closure , CallSite , Type , String , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at OneRewardsMvc.Tests.Controllers.HomeControllerTest.Index() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\HomeControllerTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="acebdc2d-6a03-493c-848b-dd387f53fd7b" testId="be281358-853b-1fea-8ed3-2f2e8b12cbc5" testName="DeleteTest" computerName="QIQSTANB222" duration="00:00:24.3216486" startTime="2012-09-24T17:29:17.1802087+01:00" endTime="2012-09-24T17:29:41.5475649+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acebdc2d-6a03-493c-848b-dd387f53fd7b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.HttpNotFoundResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.RewardAccountControllerTest.DeleteTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a24056e-25b4-49ac-ba6b-1bfe501be1d4" testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" testName="ChangePasswordTest1" computerName="QIQSTANB222" duration="00:00:00.1850062" startTime="2012-09-24T17:29:41.5943652+01:00" endTime="2012-09-24T17:29:41.8127666+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a24056e-25b4-49ac-ba6b-1bfe501be1d4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.ChangePasswordTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 107
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aafd2d4f-3f96-45e3-aa08-3d53b4fb275e" testId="cb123c34-53d6-8589-a530-6019f5c69297" testName="ManageUserControllerConstructorTest" computerName="QIQSTANB222" duration="00:00:00.0043801" startTime="2012-09-24T17:29:41.8751670+01:00" endTime="2012-09-24T17:29:41.9063672+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aafd2d4f-3f96-45e3-aa08-3d53b4fb275e">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ebc3a12-e241-4cfd-ba5d-1fa99db3946c" testId="dad2e78e-00fc-88b3-fd98-c139a7262621" testName="EditTest1" computerName="QIQSTANB222" duration="00:00:00.0558229" startTime="2012-09-24T17:29:41.9531675+01:00" endTime="2012-09-24T17:29:42.0467681+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ebc3a12-e241-4cfd-ba5d-1fa99db3946c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.HttpNotFoundResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.RewardAccountControllerTest.EditTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 212
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60b9dced-2d60-42de-a220-5a74ee9993bc" testId="74ac799f-e2d2-c781-beb2-a4a8877d42d6" testName="IndexTest" computerName="QIQSTANB222" duration="00:00:00.1872941" startTime="2012-09-24T17:29:42.0935684+01:00" endTime="2012-09-24T17:29:42.3119698+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60b9dced-2d60-42de-a220-5a74ee9993bc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.CompanyControllerTest.IndexTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 230
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bbb7f9b3-4370-412f-b1d0-737144718248" testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" testName="RegisterTest" computerName="QIQSTANB222" duration="00:00:00.0164844" startTime="2012-09-24T17:29:42.3587701+01:00" endTime="2012-09-24T17:29:42.4055704+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbb7f9b3-4370-412f-b1d0-737144718248">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.RegisterTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 219
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7121380e-795d-43d9-8c44-95e338923935" testId="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2" testName="CreateTest" computerName="QIQSTANB222" duration="00:00:00.0834152" startTime="2012-09-24T17:29:42.4523707+01:00" endTime="2012-09-24T17:29:42.5771715+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7121380e-795d-43d9-8c44-95e338923935">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.CompanyControllerTest.CreateTest threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: entity</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Utilities.RuntimeFailureMethods.Requires(Boolean condition, String userMessage, String conditionText)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at OneRewardsMvc.Controllers.CompanyController.Create(Company company, HttpPostedFileBase image) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\CompanyController.cs:line 53
+   at OneRewardsMvc.Tests.CompanyControllerTest.CreateTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebfc59f5-ad0f-4b6c-8248-4e1d6a8aa7e9" testId="dfed860a-a785-21dc-6a75-52bf42003c70" testName="RegisterTest1" computerName="QIQSTANB222" duration="00:00:00.0655662" startTime="2012-09-24T17:29:42.6239718+01:00" endTime="2012-09-24T17:29:42.7175724+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebfc59f5-ad0f-4b6c-8248-4e1d6a8aa7e9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.AccountControllerTest.RegisterTest1 threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at OneRewardsMvc.Controllers.AccountController.Register(RegisterModel model) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\AccountController.cs:line 84
+   at OneRewardsMvc.Tests.AccountControllerTest.RegisterTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 239
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f380e34-13df-421b-8c8c-4fe397e25da7" testId="52b67e0d-05da-bc84-8704-39676712c651" testName="IndexTest" computerName="QIQSTANB222" duration="00:01:04.6987109" startTime="2012-09-24T17:29:42.7643727+01:00" endTime="2012-09-24T17:30:47.5047877+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f380e34-13df-421b-8c8c-4fe397e25da7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.ManageUserControllerTest.IndexTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\ManageUserControllerTest.cs:line 186
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31c92dc3-9c39-4a2b-b346-161c6b297761" testId="11fe0478-6fbe-efe8-a7c0-eff58555c624" testName="Contact" computerName="QIQSTANB222" duration="00:00:00.0436269" startTime="2012-09-24T17:30:47.5515880+01:00" endTime="2012-09-24T17:30:47.6295885+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31c92dc3-9c39-4a2b-b346-161c6b297761">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9d10306-0046-41b0-aa26-0003699adebe" testId="173144bc-e6c4-914d-f1ef-1f54e69b13cd" testName="getImgTest" computerName="QIQSTANB222" duration="00:00:00.0999574" startTime="2012-09-24T17:30:47.6919889+01:00" endTime="2012-09-24T17:30:47.8167897+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9d10306-0046-41b0-aa26-0003699adebe">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.CompanyControllerTest.getImgTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at OneRewardsMvc.Controllers.CompanyController.getImg(Int32 id) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\CompanyController.cs:line 123
+   at OneRewardsMvc.Tests.CompanyControllerTest.getImgTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 246
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9dfd0481-2639-43aa-a023-427b1cb92fcd" testId="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4" testName="DeleteTest" computerName="QIQSTANB222" duration="00:00:00.2344948" startTime="2012-09-24T17:30:47.8635900+01:00" endTime="2012-09-24T17:30:48.1443918+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dfd0481-2639-43aa-a023-427b1cb92fcd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.HttpNotFoundResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.ManageUserControllerTest.DeleteTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\ManageUserControllerTest.cs:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2aba0fa-9cdf-4230-a41c-b34bb6e65812" testId="e8fb877f-cafa-d759-7519-9c50caaa42d4" testName="DeleteConfirmedTest" computerName="QIQSTANB222" duration="00:00:00.0630858" startTime="2012-09-24T17:30:48.4251936+01:00" endTime="2012-09-24T17:30:48.5187942+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2aba0fa-9cdf-4230-a41c-b34bb6e65812">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.RewardAccountControllerTest.DeleteConfirmedTest threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: entity</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Utilities.RuntimeFailureMethods.Requires(Boolean condition, String userMessage, String conditionText)
+   at System.Data.Entity.DbSet`1.Remove(TEntity entity)
+   at OneRewardsMvc.Controllers.RewardAccountController.DeleteConfirmed(Int32 id) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\RewardAccountController.cs:line 108
+   at OneRewardsMvc.Tests.RewardAccountControllerTest.DeleteConfirmedTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b580e5fd-da47-4005-bda6-156c7f9da09a" testId="9d54a033-daac-35a4-6068-e13a27fab813" testName="getImgTest" computerName="QIQSTANB222" duration="00:00:00.0560071" startTime="2012-09-24T17:30:48.5811946+01:00" endTime="2012-09-24T17:30:48.6591951+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b580e5fd-da47-4005-bda6-156c7f9da09a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.RewardAccountControllerTest.getImgTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at OneRewardsMvc.Controllers.RewardAccountController.getImg(Int32 id) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\RewardAccountController.cs:line 122
+   at OneRewardsMvc.Tests.RewardAccountControllerTest.getImgTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 248
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aff5a2eb-1af3-4d8d-b481-a0244fdcb048" testId="376d4788-8860-6174-3388-983e231b8249" testName="CreateTest1" computerName="QIQSTANB222" duration="00:00:00.0417779" startTime="2012-09-24T17:30:48.7059954+01:00" endTime="2012-09-24T17:30:48.7995960+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aff5a2eb-1af3-4d8d-b481-a0244fdcb048">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.RewardAccountControllerTest.CreateTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fc10f991-fc5d-4092-b45e-d3770e483524" testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" testName="CreateTest1" computerName="QIQSTANB222" duration="00:00:00.0169046" startTime="2012-09-24T17:30:48.8463963+01:00" endTime="2012-09-24T17:30:48.8931966+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc10f991-fc5d-4092-b45e-d3770e483524">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.CompanyControllerTest.CreateTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 125
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1dd5b08-08d5-4b32-b286-b593d9a00bb5" testId="cd1916aa-45f1-3f28-ca10-4287c7bb63ee" testName="CreateTest" computerName="QIQSTANB222" duration="00:00:00.0220303" startTime="2012-09-24T17:30:48.9399969+01:00" endTime="2012-09-24T17:30:48.9867972+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1dd5b08-08d5-4b32-b286-b593d9a00bb5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.RewardAccountControllerTest.CreateTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at OneRewardsMvc.Controllers.RewardAccountController.Create(RewardAccount rewardaccount, FormCollection frmCollection) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\RewardAccountController.cs:line 44
+   at OneRewardsMvc.Tests.RewardAccountControllerTest.CreateTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e361144e-ce48-4c09-83f0-38ded822a868" testId="b6efabb5-ab30-c84c-1c96-a4c8b0070e25" testName="IndexTest" computerName="QIQSTANB222" duration="00:00:00.0558037" startTime="2012-09-24T17:30:49.0491976+01:00" endTime="2012-09-24T17:30:49.1271981+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e361144e-ce48-4c09-83f0-38ded822a868">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.RewardAccountControllerTest.IndexTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 232
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29020e90-1935-4b6c-b939-1640378a0df5" testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" testName="ChangePasswordSuccessTest" computerName="QIQSTANB222" duration="00:00:00.0172177" startTime="2012-09-24T17:30:49.1895985+01:00" endTime="2012-09-24T17:30:49.2519989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29020e90-1935-4b6c-b939-1640378a0df5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.ChangePasswordSuccessTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7192e83-87c6-4a13-a4c6-65bdaa06c0c7" testId="63d0853f-8615-5260-30bf-6de8d2e4f284" testName="LoginTest1" computerName="QIQSTANB222" duration="00:00:00.0477453" startTime="2012-09-24T17:30:49.2987992+01:00" endTime="2012-09-24T17:30:49.3923998+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7192e83-87c6-4a13-a4c6-65bdaa06c0c7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.LoginTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="194e17de-c23f-4671-9214-bc30e7000ecd" testId="5db83673-b90c-d484-a502-9929e051ad9a" testName="ErrorCodeToStringTest" computerName="QIQSTANB222" duration="00:00:00.0606881" startTime="2012-09-24T17:30:49.4392001+01:00" endTime="2012-09-24T17:30:49.5484008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="194e17de-c23f-4671-9214-bc30e7000ecd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator.&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.ErrorCodeToStringTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7022e365-f406-492a-ac52-a1ecc51b8c62" testId="19b2f990-75a9-1a45-e5ae-b316dcaf04c2" testName="EditTest" computerName="QIQSTANB222" duration="00:00:00.0546925" startTime="2012-09-24T17:30:49.6108012+01:00" endTime="2012-09-24T17:30:49.6888017+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7022e365-f406-492a-ac52-a1ecc51b8c62">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.HttpNotFoundResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.CompanyControllerTest.EditTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 189
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62722bbf-3ad5-4363-a3a0-58f9b2a4e82f" testId="7bccd21c-8788-8f6b-24d4-252f03c32562" testName="LoginTest" computerName="QIQSTANB222" duration="00:00:00.0622799" startTime="2012-09-24T17:30:49.7512021+01:00" endTime="2012-09-24T17:30:49.9696035+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62722bbf-3ad5-4363-a3a0-58f9b2a4e82f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.AccountControllerTest.LoginTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at OneRewardsMvc.Controllers.AccountController.Login(LoginModel model, String returnUrl) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\AccountController.cs:line 34
+   at OneRewardsMvc.Tests.AccountControllerTest.LoginTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 180
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b28dc141-a669-415b-b823-dce93813f4b0" testId="261870ee-6bfd-4762-8e06-98bc0c4eb6bc" testName="LogOffTest" computerName="QIQSTANB222" duration="00:00:00.0917008" startTime="2012-09-24T17:30:50.0164038+01:00" endTime="2012-09-24T17:30:50.1412046+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b28dc141-a669-415b-b823-dce93813f4b0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.AccountControllerTest.LogOffTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at System.Web.Security.FormsAuthentication.SignOut()
+   at OneRewardsMvc.Controllers.AccountController.LogOff() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\AccountController.cs:line 63
+   at OneRewardsMvc.Tests.AccountControllerTest.LogOffTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f175ebb-5f7f-4f77-aff4-73f8e9a9a63c" testId="4adb521e-2a23-1e40-b32a-1a7bf1cc59c1" testName="EditTest1" computerName="QIQSTANB222" duration="00:00:00.0331151" startTime="2012-09-24T17:30:50.2036050+01:00" endTime="2012-09-24T17:30:50.2660054+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f175ebb-5f7f-4f77-aff4-73f8e9a9a63c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.CompanyControllerTest.EditTest1 threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: entity</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Utilities.RuntimeFailureMethods.Requires(Boolean condition, String userMessage, String conditionText)
+   at System.Data.Entity.DbContext.Entry[TEntity](TEntity entity)
+   at OneRewardsMvc.Controllers.CompanyController.Edit(Company company) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\CompanyController.cs:line 80
+   at OneRewardsMvc.Tests.CompanyControllerTest.EditTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 205
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0c2fdb3-1464-4092-894a-535806c4e4d0" testId="b5b4cb24-5563-1383-6cd4-4e0379aff743" testName="DeleteTest" computerName="QIQSTANB222" duration="00:00:00.0541291" startTime="2012-09-24T17:30:50.3128057+01:00" endTime="2012-09-24T17:30:50.4064063+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0c2fdb3-1464-4092-894a-535806c4e4d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.HttpNotFoundResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.CompanyControllerTest.DeleteTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 146
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be38f3d0-99bc-44f3-94ce-80bc2f8495bc" testId="713d46ab-6981-fbf5-ac44-81204a8a219e" testName="CreateTest" computerName="QIQSTANB222" duration="00:00:00.0938488" startTime="2012-09-24T17:30:50.4532066+01:00" endTime="2012-09-24T17:30:50.5780074+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be38f3d0-99bc-44f3-94ce-80bc2f8495bc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.RedirectToRouteResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.ManageUserControllerTest.CreateTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\ManageUserControllerTest.cs:line 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="81df77b9-d475-4107-9122-24b67e80e92c" testId="136faad9-71a8-a61d-e2d0-45f7aaae8929" testName="DeleteConfirmedTest" computerName="QIQSTANB222" duration="00:00:00.0553783" startTime="2012-09-24T17:30:50.6248077+01:00" endTime="2012-09-24T17:30:50.7184083+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81df77b9-d475-4107-9122-24b67e80e92c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.CompanyControllerTest.DeleteConfirmedTest threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: entity</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Utilities.RuntimeFailureMethods.Requires(Boolean condition, String userMessage, String conditionText)
+   at System.Data.Entity.DbSet`1.Remove(TEntity entity)
+   at OneRewardsMvc.Controllers.CompanyController.DeleteConfirmed(Int32 id) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\CompanyController.cs:line 109
+   at OneRewardsMvc.Tests.CompanyControllerTest.DeleteConfirmedTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\CompanyControllerTest.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a16fb55e-b99b-4c99-8911-cd0c040234d6" testId="17bdc49d-92ff-5313-d946-c26cad936b82" testName="CreateTest1" computerName="QIQSTANB222" duration="00:00:00.0180300" startTime="2012-09-24T17:30:50.7652086+01:00" endTime="2012-09-24T17:30:50.8120089+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a16fb55e-b99b-4c99-8911-cd0c040234d6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Web.Mvc.ViewResult&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.ManageUserControllerTest.CreateTest1() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\ManageUserControllerTest.cs:line 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1b30659-d53c-42a0-8527-36baa758b3e2" testId="3f9a243c-61d8-beb6-107c-56c273ccd28f" testName="GetErrorsFromModelStateTest" computerName="QIQSTANB222" duration="00:00:00.0318620" startTime="2012-09-24T17:30:50.8744093+01:00" endTime="2012-09-24T17:30:50.9368097+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1b30659-d53c-42a0-8527-36baa758b3e2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Linq.Enumerable+&lt;SelectManyIterator&gt;d__14`2[System.Collections.Generic.KeyValuePair`2[System.String,System.Web.Mvc.ModelState],System.String]&gt;. </Message>
+          <StackTrace>   at OneRewardsMvc.Tests.AccountControllerTest.GetErrorsFromModelStateTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\AccountControllerTest.cs:line 151
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04037785-b3a4-405b-838a-2890c8740082" testId="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f" testName="EditTest" computerName="QIQSTANB222" duration="00:00:00.0732678" startTime="2012-09-24T17:30:50.9836100+01:00" endTime="2012-09-24T17:30:51.0928107+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04037785-b3a4-405b-838a-2890c8740082">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.RewardAccountControllerTest.EditTest threw exception: 
+System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex</Message>
+          <StackTrace>    at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at OneRewardsMvc.Controllers.RewardAccountController.randomNumber(Int64 number) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\RewardAccountController.cs:line 138
+   at OneRewardsMvc.Controllers.RewardAccountController.Edit(Int32 id, Int64 ReceiptNum) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\RewardAccountController.cs:line 75
+   at OneRewardsMvc.Tests.RewardAccountControllerTest.EditTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\RewardAccountControllerTest.cs:line 190
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="901dd3c0-81ee-4591-bb47-73ae49b50e18" testId="29ea4fd2-7950-bb6f-6670-81b029ce6dc7" testName="About" computerName="QIQSTANB222" duration="00:00:00.0234315" startTime="2012-09-24T17:30:51.1396110+01:00" endTime="2012-09-24T17:30:51.2020114+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="901dd3c0-81ee-4591-bb47-73ae49b50e18">
+    </UnitTestResult>
+    <UnitTestResult executionId="de82a41a-1b07-42df-91d9-13ddaa32fe98" testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" testName="RewardAccountControllerConstructorTest" computerName="QIQSTANB222" duration="00:00:00.0032753" startTime="2012-09-24T17:30:51.2488117+01:00" endTime="2012-09-24T17:30:51.2800119+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de82a41a-1b07-42df-91d9-13ddaa32fe98">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a3f9f74-405e-46ce-a640-09c9c38cd3c5" testId="51172c26-1e69-f479-42c2-1d171b70610e" testName="DeleteConfirmedTest" computerName="QIQSTANB222" duration="00:00:00.0970946" startTime="2012-09-24T17:30:51.3424123+01:00" endTime="2012-09-24T17:30:51.4672131+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a3f9f74-405e-46ce-a640-09c9c38cd3c5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OneRewardsMvc.Tests.ManageUserControllerTest.DeleteConfirmedTest threw exception: 
+System.ArgumentException: The parameter 'username' must not be empty.
+Parameter name: username</Message>
+          <StackTrace>    at System.Web.Util.SecUtility.CheckParameter(String&amp; param, Boolean checkForNull, Boolean checkIfEmpty, Boolean checkForCommas, Int32 maxSize, String paramName)
+   at System.Web.Security.Membership.DeleteUser(String username, Boolean deleteAllRelatedData)
+   at OneRewardsMvc.Controllers.ManageUserController.DeleteConfirmed(String id) in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\Controllers\ManageUserController.cs:line 82
+   at OneRewardsMvc.Tests.ManageUserControllerTest.DeleteConfirmedTest() in C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\Controllers\ManageUserControllerTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

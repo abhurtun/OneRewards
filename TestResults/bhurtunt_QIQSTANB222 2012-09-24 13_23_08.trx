@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="94602b89-3836-4dd3-b9ca-79f963f0bc25" name="bhurtunt@QIQSTANB222 2012-09-24 13:23:08" runUser="QIQ\bhurtunt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc37a548-0a1e-4665-bb19-abe0d6af83c3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="bhurtunt_QIQSTANB222 2012-09-24 13_23_08">
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsWcfService\bin\OneRewardsWcfService.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-24T13:23:08.5326881+01:00" queuing="2012-09-24T13:23:27.3466881+01:00" start="2012-09-24T13:23:30.6426881+01:00" finish="2012-09-24T13:25:35.4336881+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="QIQSTANB222" outcome="Error" timestamp="2012-09-24T13:25:35.4086881+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyAppDomainHasConfigurationSettings" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="145fdb5f-e5e9-756f-1a85-85923f93c7a4">
+      <Execution id="362a538d-cd76-4e15-b000-eadc34a4f642" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyAppDomainHasConfigurationSettings" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" executionId="362a538d-cd76-4e15-b000-eadc34a4f642" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="362a538d-cd76-4e15-b000-eadc34a4f642" testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" testName="VerifyAppDomainHasConfigurationSettings" computerName="QIQSTANB222" duration="00:02:01.5330000" startTime="2012-09-24T13:23:33.8986881+01:00" endTime="2012-09-24T13:25:35.4316881+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="362a538d-cd76-4e15-b000-eadc34a4f642">
+    </UnitTestResult>
+  </Results>
+</TestRun>

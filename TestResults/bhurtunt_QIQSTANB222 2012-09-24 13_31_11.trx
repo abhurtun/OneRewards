@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b9f4abd0-3eb9-41ec-99f4-c756bcce890b" name="bhurtunt@QIQSTANB222 2012-09-24 13:31:11" runUser="QIQ\bhurtunt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc37a548-0a1e-4665-bb19-abe0d6af83c3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="bhurtunt_QIQSTANB222 2012-09-24 13_31_11">
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsWcfService\bin\OneRewardsWcfService.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-24T13:31:11.3486881+01:00" queuing="2012-09-24T13:31:29.5606881+01:00" start="2012-09-24T13:31:32.6186881+01:00" finish="2012-09-24T13:31:45.0976881+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VerifyAppDomainHasConfigurationSettings" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="145fdb5f-e5e9-756f-1a85-85923f93c7a4">
+      <Execution id="e55d3c4a-a41e-4668-bb7c-da1b989b64b7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyAppDomainHasConfigurationSettings" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" executionId="e55d3c4a-a41e-4668-bb7c-da1b989b64b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e55d3c4a-a41e-4668-bb7c-da1b989b64b7" testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" testName="VerifyAppDomainHasConfigurationSettings" computerName="QIQSTANB222" startTime="2012-09-24T13:31:35.7136881+01:00" endTime="2012-09-24T13:31:44.9566881+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e55d3c4a-a41e-4668-bb7c-da1b989b64b7">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Unrecognized attribute 'providerName'. Note that attribute names are case-sensitive. (C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\OneRewardsTestProject.DLL.config line 4).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

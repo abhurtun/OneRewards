@@ -1,0 +1,5 @@
+C:\Users\bhurtunt\documents\visual studio 2010\Projects\HelloWorld\OneRewardsCloudService\bin\Debug\OneRewardsCloudService.dll
+C:\Users\bhurtunt\documents\visual studio 2010\Projects\HelloWorld\OneRewardsCloudService\bin\Debug\OneRewardsCloudService.pdb
+C:\Users\bhurtunt\documents\visual studio 2010\Projects\HelloWorld\OneRewardsCloudService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bhurtunt\documents\visual studio 2010\Projects\HelloWorld\OneRewardsCloudService\obj\Debug\OneRewardsCloudService.dll
+C:\Users\bhurtunt\documents\visual studio 2010\Projects\HelloWorld\OneRewardsCloudService\obj\Debug\OneRewardsCloudService.pdb

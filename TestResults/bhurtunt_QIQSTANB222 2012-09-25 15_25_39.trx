@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc29de24-4cad-4bee-af23-3e57b9f6b638" name="bhurtunt@QIQSTANB222 2012-09-25 15:25:39" runUser="QIQ\bhurtunt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc37a548-0a1e-4665-bb19-abe0d6af83c3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="bhurtunt_QIQSTANB222 2012-09-25 15_25_39">
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsWcfService\bin\OneRewardsWcfService.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\bin\OneRewardsMvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-25T15:25:39.5997446+01:00" queuing="2012-09-25T15:25:40.6118458+01:00" start="2012-09-25T15:25:40.8608707+01:00" finish="2012-09-25T15:25:44.7452591+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="55" executed="55" error="0" failed="55" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="b6efabb5-ab30-c84c-1c96-a4c8b0070e25">
+      <Execution id="cc14d146-fe9b-4cbf-8d46-9f6f954bd566" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6">
+      <Execution id="54c0418e-0235-4eb8-b3b7-09fef205152e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterModelConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ChangePasswordModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="45ccdcf3-4686-de7a-54f8-2bf19bffaf16">
+      <Execution id="5fec33aa-181a-4f51-b8ce-20c2e076a78f" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordModelConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RememberMeTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="6d0c9798-42d3-4120-fbc0-fe8daffcbb33">
+      <Execution id="4f999eef-8d62-4aa7-bb8e-c384c7035ea3" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RememberMeTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="19b2f990-75a9-1a45-e5ae-b316dcaf04c2">
+      <Execution id="e28009c0-7d6c-4a01-ac65-ba20c9588ebc" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EmailTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="78b00d71-1a05-ac7a-2671-0133262f0f63">
+      <Execution id="8118b6de-8923-4287-a5b1-f90244cb077c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmailTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f">
+      <Execution id="0c0de143-e725-438a-abb0-bd8beca1d38c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyRewardsLinkTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="f7d76670-4ea5-14d9-3740-a9f0c64dcb60">
+      <Execution id="8a67ec0c-e213-4323-8e2b-e060535a3574" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyRewardsLinkTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyLogoTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411">
+      <Execution id="7319d68c-ec6b-4b77-8b32-c3aa5aa64524" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyLogoTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="8141c866-f817-7fc4-cbec-b68e4ba3e60d">
+      <Execution id="0e1e5cad-8e8b-45a4-885a-1998500ca178" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountIDTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99">
+      <Execution id="c6e04109-9d4c-423a-b2e4-062ead2dd0aa" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="569db36b-aaf6-0347-4a22-0da6b66abb9d">
+      <Execution id="c573586b-9958-412c-978f-d016c0d15139" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="51975c1c-4e33-f71d-0de2-af5df9be6738">
+      <Execution id="b2cbb247-08d7-41f8-afe3-5b8ce829b226" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyIDTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="376d4788-8860-6174-3388-983e231b8249">
+      <Execution id="ebeb39ed-ef2c-47d3-a054-6e1e5bec289d" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="randomNumberTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="21be142e-5370-ae21-e2dc-be63484b5918">
+      <Execution id="e3bf58f0-65ef-4265-920c-09061c3eb937" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="randomNumberTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189">
+      <Execution id="bff9cc09-18e5-4bdb-ad91-4dcddbb32ede" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bfa3d854-20e9-afaf-6a5b-84d340d16475">
+      <Execution id="f03a35b9-6005-4c08-9b6d-d2e5ad92a11e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="0a370041-7040-2e13-5863-bac5253f5ac5">
+      <Execution id="712dfc7d-2926-410d-a2d1-14803e08e938" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountsTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="OneRewardsContextConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="429d7597-ec02-7233-723e-1f5db3d511c3">
+      <Execution id="6a7fac64-34fc-4ad3-84f7-a89e82970b97" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneRewardsContextConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e83d5e76-81cb-7aa5-6350-533ceff0a688">
+      <Execution id="b1ed9656-d877-43d5-9b5b-398c0dfcc21e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest1" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2da4bebc-3c59-5ad6-f979-253de0819eef">
+      <Execution id="1d7b43ec-947f-4adc-8d80-ccfad19a8c6e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyIDTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bd3310f4-b4bd-3ae6-6615-9138f25eecfe">
+      <Execution id="31bc9f90-fa52-4290-ab41-06d16a2baa26" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="be281358-853b-1fea-8ed3-2f2e8b12cbc5">
+      <Execution id="7f9de6df-62ab-47ac-bcba-1cbee359d571" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="00be0e1b-b601-c776-f2f0-30741904f1b1">
+      <Execution id="47a172db-6389-4f02-9001-8c0f3818699a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="superUserTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="77a4f4e8-b860-8022-afa0-04f704a7d75b">
+      <Execution id="d2be0633-cfd8-499d-a691-20e9b260ec24" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="superUserTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="048c21fc-22db-258a-b14e-0727745eb56f">
+      <Execution id="e6e2b02a-8eb3-4389-aa2f-c2c49e98ffe8" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyControllerConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4">
+      <Execution id="14802d20-8b3a-40ba-9955-e16cfc24f0cb" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="713d46ab-6981-fbf5-ac44-81204a8a219e">
+      <Execution id="d1ba45c9-4655-4a15-8407-ba788ca74477" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="dfed860a-a785-21dc-6a75-52bf42003c70">
+      <Execution id="de1207b6-c983-49f5-a6db-846f80b790ee" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest1" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="TotalPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9ece2e17-897e-6388-d7d8-b0118f0c769a">
+      <Execution id="828b9920-0923-4acc-bb87-9f43ffeba4ac" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TotalPointsTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ManageUserControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="cb123c34-53d6-8589-a530-6019f5c69297">
+      <Execution id="f89e6b12-1a1a-4582-baec-2331e8787f06" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ManageUserControllerConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="0500de23-aeeb-f6c6-c692-6fab2def3d9a">
+      <Execution id="4eb7a7b4-a8ce-4d7b-ad8b-94d8ddeb8b4d" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="OldPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="ed20047a-3110-0877-3507-be97b1a3c1c4">
+      <Execution id="48d063f1-491d-4f95-897d-02b9f7905639" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OldPasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5c4a3b81-d2e9-390e-4d47-debd5f30f955">
+      <Execution id="29ee9c2a-aa29-40d2-a11a-d9b7836887b9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="17bdc49d-92ff-5313-d946-c26cad936b82">
+      <Execution id="8c1fea71-8817-4340-aad1-ad5c2634515b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="OneRewardsInitializerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="46346720-47cc-a1a5-62c4-07a919cfeca1">
+      <Execution id="086788f6-22ac-4959-a87e-c1773c033b38" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsInitializerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneRewardsInitializerConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccessTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5">
+      <Execution id="0399a347-21c5-4215-9916-d9c6e9316b6f" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccessTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanysTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5d19af3b-a1f7-93d9-f491-f55c1806498c">
+      <Execution id="18b453d9-9262-440c-8ff5-610168f9c2bf" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanysTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="f75630da-5c1f-a916-4e6a-f746a6a75e69">
+      <Execution id="d6771adf-9b33-4493-b223-56c0b74c8b19" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PointsTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="74ac799f-e2d2-c781-beb2-a4a8877d42d6">
+      <Execution id="7be59c4e-3afb-4ed9-8e69-0f03951fb3fb" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5d366f05-d5ed-f6a1-c3f5-0946714cc580">
+      <Execution id="be654332-1b80-422d-913c-4098add760c0" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7036f143-371c-6f5c-0405-5641f0559823">
+      <Execution id="ec079086-bb26-4025-a0e7-0ca527fc35df" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyNameTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a">
+      <Execution id="c7b7764c-f71e-4194-88d0-3cd56f00c751" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="b5b4cb24-5563-1383-6cd4-4e0379aff743">
+      <Execution id="4a40d49c-3a00-4fd7-a51d-9ae928cc0fde" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="52b67e0d-05da-bc84-8704-39676712c651">
+      <Execution id="262173e6-682c-4eef-b5a7-347ee0ec5dc4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteConfirmedTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="51172c26-1e69-f479-42c2-1d171b70610e">
+      <Execution id="c2bf5680-b989-4cad-bd80-c799b293fa08" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteConfirmedTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="LoginTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7bccd21c-8788-8f6b-24d4-252f03c32562">
+      <Execution id="e9db117b-c98e-4de4-927a-7784bd8cd5ae" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d">
+      <Execution id="2573ece6-7ad9-412e-a7a4-6776e3ab08d7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConvertImageFiletoBytesTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="c3470532-85b6-cfc4-e394-8ff591a2d3f9">
+      <Execution id="3f2e2562-a21a-4551-9401-1431386bd224" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertImageFiletoBytesTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="47c84612-e9a7-0037-f786-2df27ea2d7d5">
+      <Execution id="215da3ce-c079-4cc7-8046-924c1994db70" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountControllerConstructorTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="LoginTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="63d0853f-8615-5260-30bf-6de8d2e4f284">
+      <Execution id="f569074e-fc17-472d-8d71-ac793da3178e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest1" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="checkUserTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="aa374df2-50fc-43d7-2eb6-9baf87f49e00">
+      <Execution id="cd048d38-9df6-4de1-8c88-969d44597fdb" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkUserTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="NewPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="43d82bd3-0aa5-484b-e322-8b19b19a32b8">
+      <Execution id="5ee71b64-a4e8-426a-a876-a36a942c71d5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewPasswordTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2">
+      <Execution id="70f26090-6f29-4722-9c80-05a1d99a322a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203">
+      <Execution id="661f27b3-ca4d-4166-a0f1-ee35356fb354" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet>
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f7d76670-4ea5-14d9-3740-a9f0c64dcb60" executionId="8a67ec0c-e213-4323-8e2b-e060535a3574" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00be0e1b-b601-c776-f2f0-30741904f1b1" executionId="47a172db-6389-4f02-9001-8c0f3818699a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d" executionId="2573ece6-7ad9-412e-a7a4-6776e3ab08d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfed860a-a785-21dc-6a75-52bf42003c70" executionId="de1207b6-c983-49f5-a6db-846f80b790ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" executionId="215da3ce-c079-4cc7-8046-924c1994db70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb123c34-53d6-8589-a530-6019f5c69297" executionId="f89e6b12-1a1a-4582-baec-2331e8787f06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5b4cb24-5563-1383-6cd4-4e0379aff743" executionId="4a40d49c-3a00-4fd7-a51d-9ae928cc0fde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17bdc49d-92ff-5313-d946-c26cad936b82" executionId="8c1fea71-8817-4340-aad1-ad5c2634515b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" executionId="661f27b3-ca4d-4166-a0f1-ee35356fb354" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6efabb5-ab30-c84c-1c96-a4c8b0070e25" executionId="cc14d146-fe9b-4cbf-8d46-9f6f954bd566" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd3310f4-b4bd-3ae6-6615-9138f25eecfe" executionId="31bc9f90-fa52-4290-ab41-06d16a2baa26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" executionId="c6e04109-9d4c-423a-b2e4-062ead2dd0aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d366f05-d5ed-f6a1-c3f5-0946714cc580" executionId="be654332-1b80-422d-913c-4098add760c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411" executionId="7319d68c-ec6b-4b77-8b32-c3aa5aa64524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" executionId="b1ed9656-d877-43d5-9b5b-398c0dfcc21e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" executionId="0399a347-21c5-4215-9916-d9c6e9316b6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3470532-85b6-cfc4-e394-8ff591a2d3f9" executionId="3f2e2562-a21a-4551-9401-1431386bd224" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2" executionId="70f26090-6f29-4722-9c80-05a1d99a322a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63d0853f-8615-5260-30bf-6de8d2e4f284" executionId="f569074e-fc17-472d-8d71-ac793da3178e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ece2e17-897e-6388-d7d8-b0118f0c769a" executionId="828b9920-0923-4acc-bb87-9f43ffeba4ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45ccdcf3-4686-de7a-54f8-2bf19bffaf16" executionId="5fec33aa-181a-4f51-b8ce-20c2e076a78f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429d7597-ec02-7233-723e-1f5db3d511c3" executionId="6a7fac64-34fc-4ad3-84f7-a89e82970b97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f" executionId="0c0de143-e725-438a-abb0-bd8beca1d38c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="376d4788-8860-6174-3388-983e231b8249" executionId="ebeb39ed-ef2c-47d3-a054-6e1e5bec289d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46346720-47cc-a1a5-62c4-07a919cfeca1" executionId="086788f6-22ac-4959-a87e-c1773c033b38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4" executionId="14802d20-8b3a-40ba-9955-e16cfc24f0cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51172c26-1e69-f479-42c2-1d171b70610e" executionId="c2bf5680-b989-4cad-bd80-c799b293fa08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21be142e-5370-ae21-e2dc-be63484b5918" executionId="e3bf58f0-65ef-4265-920c-09061c3eb937" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43d82bd3-0aa5-484b-e322-8b19b19a32b8" executionId="5ee71b64-a4e8-426a-a876-a36a942c71d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bccd21c-8788-8f6b-24d4-252f03c32562" executionId="e9db117b-c98e-4de4-927a-7784bd8cd5ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a" executionId="c7b7764c-f71e-4194-88d0-3cd56f00c751" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77a4f4e8-b860-8022-afa0-04f704a7d75b" executionId="d2be0633-cfd8-499d-a691-20e9b260ec24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74ac799f-e2d2-c781-beb2-a4a8877d42d6" executionId="7be59c4e-3afb-4ed9-8e69-0f03951fb3fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfa3d854-20e9-afaf-6a5b-84d340d16475" executionId="f03a35b9-6005-4c08-9b6d-d2e5ad92a11e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d19af3b-a1f7-93d9-f491-f55c1806498c" executionId="18b453d9-9262-440c-8ff5-610168f9c2bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a370041-7040-2e13-5863-bac5253f5ac5" executionId="712dfc7d-2926-410d-a2d1-14803e08e938" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="713d46ab-6981-fbf5-ac44-81204a8a219e" executionId="d1ba45c9-4655-4a15-8407-ba788ca74477" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52b67e0d-05da-bc84-8704-39676712c651" executionId="262173e6-682c-4eef-b5a7-347ee0ec5dc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d0c9798-42d3-4120-fbc0-fe8daffcbb33" executionId="4f999eef-8d62-4aa7-bb8e-c384c7035ea3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8141c866-f817-7fc4-cbec-b68e4ba3e60d" executionId="0e1e5cad-8e8b-45a4-885a-1998500ca178" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0500de23-aeeb-f6c6-c692-6fab2def3d9a" executionId="4eb7a7b4-a8ce-4d7b-ad8b-94d8ddeb8b4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6" executionId="54c0418e-0235-4eb8-b3b7-09fef205152e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7036f143-371c-6f5c-0405-5641f0559823" executionId="ec079086-bb26-4025-a0e7-0ca527fc35df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51975c1c-4e33-f71d-0de2-af5df9be6738" executionId="b2cbb247-08d7-41f8-afe3-5b8ce829b226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f75630da-5c1f-a916-4e6a-f746a6a75e69" executionId="d6771adf-9b33-4493-b223-56c0b74c8b19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="569db36b-aaf6-0347-4a22-0da6b66abb9d" executionId="c573586b-9958-412c-978f-d016c0d15139" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa374df2-50fc-43d7-2eb6-9baf87f49e00" executionId="cd048d38-9df6-4de1-8c88-969d44597fdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be281358-853b-1fea-8ed3-2f2e8b12cbc5" executionId="7f9de6df-62ab-47ac-bcba-1cbee359d571" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed20047a-3110-0877-3507-be97b1a3c1c4" executionId="48d063f1-491d-4f95-897d-02b9f7905639" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78b00d71-1a05-ac7a-2671-0133262f0f63" executionId="8118b6de-8923-4287-a5b1-f90244cb077c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="048c21fc-22db-258a-b14e-0727745eb56f" executionId="e6e2b02a-8eb3-4389-aa2f-c2c49e98ffe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c4a3b81-d2e9-390e-4d47-debd5f30f955" executionId="29ee9c2a-aa29-40d2-a11a-d9b7836887b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2da4bebc-3c59-5ad6-f979-253de0819eef" executionId="1d7b43ec-947f-4adc-8d80-ccfad19a8c6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" executionId="bff9cc09-18e5-4bdb-ad91-4dcddbb32ede" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19b2f990-75a9-1a45-e5ae-b316dcaf04c2" executionId="e28009c0-7d6c-4a01-ac65-ba20c9588ebc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a67ec0c-e213-4323-8e2b-e060535a3574" testId="f7d76670-4ea5-14d9-3740-a9f0c64dcb60" testName="CompanyRewardsLinkTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:40.9478794+01:00" endTime="2012-09-25T15:25:40.9548801+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a67ec0c-e213-4323-8e2b-e060535a3574">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47a172db-6389-4f02-9001-8c0f3818699a" testId="00be0e1b-b601-c776-f2f0-30741904f1b1" testName="PasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.0128859+01:00" endTime="2012-09-25T15:25:41.0198866+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47a172db-6389-4f02-9001-8c0f3818699a">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2573ece6-7ad9-412e-a7a4-6776e3ab08d7" testId="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d" testName="UserNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.0908937+01:00" endTime="2012-09-25T15:25:41.0968943+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2573ece6-7ad9-412e-a7a4-6776e3ab08d7">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de1207b6-c983-49f5-a6db-846f80b790ee" testId="dfed860a-a785-21dc-6a75-52bf42003c70" testName="RegisterTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.1549001+01:00" endTime="2012-09-25T15:25:41.1629009+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de1207b6-c983-49f5-a6db-846f80b790ee">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="215da3ce-c079-4cc7-8046-924c1994db70" testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" testName="RewardAccountControllerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.2269073+01:00" endTime="2012-09-25T15:25:41.2339080+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="215da3ce-c079-4cc7-8046-924c1994db70">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f89e6b12-1a1a-4582-baec-2331e8787f06" testId="cb123c34-53d6-8589-a530-6019f5c69297" testName="ManageUserControllerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.3079154+01:00" endTime="2012-09-25T15:25:41.3149161+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f89e6b12-1a1a-4582-baec-2331e8787f06">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a40d49c-3a00-4fd7-a51d-9ae928cc0fde" testId="b5b4cb24-5563-1383-6cd4-4e0379aff743" testName="DeleteTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.3759222+01:00" endTime="2012-09-25T15:25:41.3839230+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a40d49c-3a00-4fd7-a51d-9ae928cc0fde">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c1fea71-8817-4340-aad1-ad5c2634515b" testId="17bdc49d-92ff-5313-d946-c26cad936b82" testName="CreateTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.4439290+01:00" endTime="2012-09-25T15:25:41.4509297+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c1fea71-8817-4340-aad1-ad5c2634515b">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="661f27b3-ca4d-4166-a0f1-ee35356fb354" testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" testName="CreateTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.5059352+01:00" endTime="2012-09-25T15:25:41.5119358+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="661f27b3-ca4d-4166-a0f1-ee35356fb354">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc14d146-fe9b-4cbf-8d46-9f6f954bd566" testId="b6efabb5-ab30-c84c-1c96-a4c8b0070e25" testName="IndexTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.5669413+01:00" endTime="2012-09-25T15:25:41.5739420+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc14d146-fe9b-4cbf-8d46-9f6f954bd566">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31bc9f90-fa52-4290-ab41-06d16a2baa26" testId="bd3310f4-b4bd-3ae6-6615-9138f25eecfe" testName="CompanyTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.6379484+01:00" endTime="2012-09-25T15:25:41.6439490+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31bc9f90-fa52-4290-ab41-06d16a2baa26">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6e04109-9d4c-423a-b2e4-062ead2dd0aa" testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" testName="RegisterTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.7179564+01:00" endTime="2012-09-25T15:25:41.7249571+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6e04109-9d4c-423a-b2e4-062ead2dd0aa">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be654332-1b80-422d-913c-4098add760c0" testId="5d366f05-d5ed-f6a1-c3f5-0946714cc580" testName="PasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.7899636+01:00" endTime="2012-09-25T15:25:41.7959642+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be654332-1b80-422d-913c-4098add760c0">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7319d68c-ec6b-4b77-8b32-c3aa5aa64524" testId="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411" testName="CompanyLogoTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.8539700+01:00" endTime="2012-09-25T15:25:41.8609707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7319d68c-ec6b-4b77-8b32-c3aa5aa64524">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1ed9656-d877-43d5-9b5b-398c0dfcc21e" testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" testName="ChangePasswordTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.9269773+01:00" endTime="2012-09-25T15:25:41.9329779+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1ed9656-d877-43d5-9b5b-398c0dfcc21e">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0399a347-21c5-4215-9916-d9c6e9316b6f" testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" testName="ChangePasswordSuccessTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:41.9979844+01:00" endTime="2012-09-25T15:25:42.0049851+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0399a347-21c5-4215-9916-d9c6e9316b6f">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f2e2562-a21a-4551-9401-1431386bd224" testId="c3470532-85b6-cfc4-e394-8ff591a2d3f9" testName="ConvertImageFiletoBytesTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.0699916+01:00" endTime="2012-09-25T15:25:42.0769923+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f2e2562-a21a-4551-9401-1431386bd224">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70f26090-6f29-4722-9c80-05a1d99a322a" testId="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2" testName="CreateTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.1439990+01:00" endTime="2012-09-25T15:25:42.1509997+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70f26090-6f29-4722-9c80-05a1d99a322a">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f569074e-fc17-472d-8d71-ac793da3178e" testId="63d0853f-8615-5260-30bf-6de8d2e4f284" testName="LoginTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.2360082+01:00" endTime="2012-09-25T15:25:42.2410087+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f569074e-fc17-472d-8d71-ac793da3178e">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="828b9920-0923-4acc-bb87-9f43ffeba4ac" testId="9ece2e17-897e-6388-d7d8-b0118f0c769a" testName="TotalPointsTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.3060152+01:00" endTime="2012-09-25T15:25:42.3130159+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="828b9920-0923-4acc-bb87-9f43ffeba4ac">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5fec33aa-181a-4f51-b8ce-20c2e076a78f" testId="45ccdcf3-4686-de7a-54f8-2bf19bffaf16" testName="ChangePasswordModelConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.3730219+01:00" endTime="2012-09-25T15:25:42.3820228+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fec33aa-181a-4f51-b8ce-20c2e076a78f">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a7fac64-34fc-4ad3-84f7-a89e82970b97" testId="429d7597-ec02-7233-723e-1f5db3d511c3" testName="OneRewardsContextConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.4380284+01:00" endTime="2012-09-25T15:25:42.4440290+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a7fac64-34fc-4ad3-84f7-a89e82970b97">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c0de143-e725-438a-abb0-bd8beca1d38c" testId="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f" testName="EditTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.5060352+01:00" endTime="2012-09-25T15:25:42.5120358+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c0de143-e725-438a-abb0-bd8beca1d38c">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebeb39ed-ef2c-47d3-a054-6e1e5bec289d" testId="376d4788-8860-6174-3388-983e231b8249" testName="CreateTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.5720418+01:00" endTime="2012-09-25T15:25:42.5770423+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebeb39ed-ef2c-47d3-a054-6e1e5bec289d">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="086788f6-22ac-4959-a87e-c1773c033b38" testId="46346720-47cc-a1a5-62c4-07a919cfeca1" testName="OneRewardsInitializerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.6370483+01:00" endTime="2012-09-25T15:25:42.6430489+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="086788f6-22ac-4959-a87e-c1773c033b38">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14802d20-8b3a-40ba-9955-e16cfc24f0cb" testId="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4" testName="DeleteTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.7050551+01:00" endTime="2012-09-25T15:25:42.7110557+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14802d20-8b3a-40ba-9955-e16cfc24f0cb">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2bf5680-b989-4cad-bd80-c799b293fa08" testId="51172c26-1e69-f479-42c2-1d171b70610e" testName="DeleteConfirmedTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.7700616+01:00" endTime="2012-09-25T15:25:42.7900636+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2bf5680-b989-4cad-bd80-c799b293fa08">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3bf58f0-65ef-4265-920c-09061c3eb937" testId="21be142e-5370-ae21-e2dc-be63484b5918" testName="randomNumberTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.8480694+01:00" endTime="2012-09-25T15:25:42.8530699+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3bf58f0-65ef-4265-920c-09061c3eb937">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ee71b64-a4e8-426a-a876-a36a942c71d5" testId="43d82bd3-0aa5-484b-e322-8b19b19a32b8" testName="NewPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.9120758+01:00" endTime="2012-09-25T15:25:42.9180764+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ee71b64-a4e8-426a-a876-a36a942c71d5">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9db117b-c98e-4de4-927a-7784bd8cd5ae" testId="7bccd21c-8788-8f6b-24d4-252f03c32562" testName="LoginTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:42.9780824+01:00" endTime="2012-09-25T15:25:42.9840830+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9db117b-c98e-4de4-927a-7784bd8cd5ae">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7b7764c-f71e-4194-88d0-3cd56f00c751" testId="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a" testName="RewardAccountConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.0360882+01:00" endTime="2012-09-25T15:25:43.0420888+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7b7764c-f71e-4194-88d0-3cd56f00c751">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2be0633-cfd8-499d-a691-20e9b260ec24" testId="77a4f4e8-b860-8022-afa0-04f704a7d75b" testName="superUserTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.1020948+01:00" endTime="2012-09-25T15:25:43.1070953+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2be0633-cfd8-499d-a691-20e9b260ec24">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7be59c4e-3afb-4ed9-8e69-0f03951fb3fb" testId="74ac799f-e2d2-c781-beb2-a4a8877d42d6" testName="IndexTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.1761022+01:00" endTime="2012-09-25T15:25:43.1881034+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7be59c4e-3afb-4ed9-8e69-0f03951fb3fb">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f03a35b9-6005-4c08-9b6d-d2e5ad92a11e" testId="bfa3d854-20e9-afaf-6a5b-84d340d16475" testName="ConfirmPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.2521098+01:00" endTime="2012-09-25T15:25:43.2581104+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f03a35b9-6005-4c08-9b6d-d2e5ad92a11e">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18b453d9-9262-440c-8ff5-610168f9c2bf" testId="5d19af3b-a1f7-93d9-f491-f55c1806498c" testName="CompanysTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.3261172+01:00" endTime="2012-09-25T15:25:43.3321178+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18b453d9-9262-440c-8ff5-610168f9c2bf">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="712dfc7d-2926-410d-a2d1-14803e08e938" testId="0a370041-7040-2e13-5863-bac5253f5ac5" testName="RewardAccountsTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.3961242+01:00" endTime="2012-09-25T15:25:43.4031249+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="712dfc7d-2926-410d-a2d1-14803e08e938">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1ba45c9-4655-4a15-8407-ba788ca74477" testId="713d46ab-6981-fbf5-ac44-81204a8a219e" testName="CreateTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.4591305+01:00" endTime="2012-09-25T15:25:43.4651311+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1ba45c9-4655-4a15-8407-ba788ca74477">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="262173e6-682c-4eef-b5a7-347ee0ec5dc4" testId="52b67e0d-05da-bc84-8704-39676712c651" testName="IndexTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.5191365+01:00" endTime="2012-09-25T15:25:43.5241370+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="262173e6-682c-4eef-b5a7-347ee0ec5dc4">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f999eef-8d62-4aa7-bb8e-c384c7035ea3" testId="6d0c9798-42d3-4120-fbc0-fe8daffcbb33" testName="RememberMeTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.5881434+01:00" endTime="2012-09-25T15:25:43.5931439+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f999eef-8d62-4aa7-bb8e-c384c7035ea3">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e1e5cad-8e8b-45a4-885a-1998500ca178" testId="8141c866-f817-7fc4-cbec-b68e4ba3e60d" testName="RewardAccountIDTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.6451491+01:00" endTime="2012-09-25T15:25:43.6521498+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e1e5cad-8e8b-45a4-885a-1998500ca178">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4eb7a7b4-a8ce-4d7b-ad8b-94d8ddeb8b4d" testId="0500de23-aeeb-f6c6-c692-6fab2def3d9a" testName="ConfirmPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.7171563+01:00" endTime="2012-09-25T15:25:43.7251571+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4eb7a7b4-a8ce-4d7b-ad8b-94d8ddeb8b4d">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54c0418e-0235-4eb8-b3b7-09fef205152e" testId="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6" testName="RegisterModelConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.8071653+01:00" endTime="2012-09-25T15:25:43.8161662+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54c0418e-0235-4eb8-b3b7-09fef205152e">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec079086-bb26-4025-a0e7-0ca527fc35df" testId="7036f143-371c-6f5c-0405-5641f0559823" testName="CompanyNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.8791725+01:00" endTime="2012-09-25T15:25:43.8871733+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec079086-bb26-4025-a0e7-0ca527fc35df">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2cbb247-08d7-41f8-afe3-5b8ce829b226" testId="51975c1c-4e33-f71d-0de2-af5df9be6738" testName="CompanyIDTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:43.9501796+01:00" endTime="2012-09-25T15:25:43.9561802+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2cbb247-08d7-41f8-afe3-5b8ce829b226">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6771adf-9b33-4493-b223-56c0b74c8b19" testId="f75630da-5c1f-a916-4e6a-f746a6a75e69" testName="PointsTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.0101856+01:00" endTime="2012-09-25T15:25:44.0161862+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6771adf-9b33-4493-b223-56c0b74c8b19">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c573586b-9958-412c-978f-d016c0d15139" testId="569db36b-aaf6-0347-4a22-0da6b66abb9d" testName="UserNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.0691915+01:00" endTime="2012-09-25T15:25:44.0761922+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c573586b-9958-412c-978f-d016c0d15139">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd048d38-9df6-4de1-8c88-969d44597fdb" testId="aa374df2-50fc-43d7-2eb6-9baf87f49e00" testName="checkUserTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.1321978+01:00" endTime="2012-09-25T15:25:44.1381984+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd048d38-9df6-4de1-8c88-969d44597fdb">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7f9de6df-62ab-47ac-bcba-1cbee359d571" testId="be281358-853b-1fea-8ed3-2f2e8b12cbc5" testName="DeleteTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.1982044+01:00" endTime="2012-09-25T15:25:44.2032049+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f9de6df-62ab-47ac-bcba-1cbee359d571">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="48d063f1-491d-4f95-897d-02b9f7905639" testId="ed20047a-3110-0877-3507-be97b1a3c1c4" testName="OldPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.2572103+01:00" endTime="2012-09-25T15:25:44.2632109+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48d063f1-491d-4f95-897d-02b9f7905639">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8118b6de-8923-4287-a5b1-f90244cb077c" testId="78b00d71-1a05-ac7a-2671-0133262f0f63" testName="EmailTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.3192165+01:00" endTime="2012-09-25T15:25:44.3262172+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8118b6de-8923-4287-a5b1-f90244cb077c">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6e2b02a-8eb3-4389-aa2f-c2c49e98ffe8" testId="048c21fc-22db-258a-b14e-0727745eb56f" testName="CompanyControllerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.3842230+01:00" endTime="2012-09-25T15:25:44.3902236+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6e2b02a-8eb3-4389-aa2f-c2c49e98ffe8">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29ee9c2a-aa29-40d2-a11a-d9b7836887b9" testId="5c4a3b81-d2e9-390e-4d47-debd5f30f955" testName="UserNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.4472293+01:00" endTime="2012-09-25T15:25:44.4552301+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29ee9c2a-aa29-40d2-a11a-d9b7836887b9">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d7b43ec-947f-4adc-8d80-ccfad19a8c6e" testId="2da4bebc-3c59-5ad6-f979-253de0819eef" testName="CompanyIDTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.5132359+01:00" endTime="2012-09-25T15:25:44.5202366+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d7b43ec-947f-4adc-8d80-ccfad19a8c6e">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bff9cc09-18e5-4bdb-ad91-4dcddbb32ede" testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" testName="ChangePasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.5832429+01:00" endTime="2012-09-25T15:25:44.5912437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bff9cc09-18e5-4bdb-ad91-4dcddbb32ede">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e28009c0-7d6c-4a01-ac65-ba20c9588ebc" testId="19b2f990-75a9-1a45-e5ae-b316dcaf04c2" testName="EditTest" computerName="QIQSTANB222" startTime="2012-09-25T15:25:44.6442490+01:00" endTime="2012-09-25T15:25:44.6502496+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e28009c0-7d6c-4a01-ac65-ba20c9588ebc">
+      <Output>
+        <ErrorInfo>
+          <Message>The URL to test is not specified. Tests configured to run in ASP.NET must specify a valid URL.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

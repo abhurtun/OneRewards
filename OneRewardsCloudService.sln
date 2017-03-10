@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRewardsWcfService", "OneRewardsWcfService\OneRewardsWcfService.csproj", "{96251C9D-B256-47E2-8577-8865214B89EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRewardsTestProject", "OneRewardsTestProject\OneRewardsTestProject.csproj", "{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFE7B640-0E2A-40CC-901D-5F0853BF919C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		OneRewardsCloudService.vsmdi = OneRewardsCloudService.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRewardsMvc", "OneRewardsMvc\OneRewardsMvc.csproj", "{C05A854F-72D3-45A9-9607-860F1D51DA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRewardsMvc.Tests", "OneRewardsMvc.Tests\OneRewardsMvc.Tests.csproj", "{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRewardsPhoneApp", "OneRewardsPhoneApp\OneRewardsPhoneApp.csproj", "{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{96251C9D-B256-47E2-8577-8865214B89EB} = {96251C9D-B256-47E2-8577-8865214B89EB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneRewardsPhoneAppUnitTest", "OneRewardsPhoneAppUnitTest\OneRewardsPhoneAppUnitTest.csproj", "{F378B947-C7A2-440F-99D5-5E8C0F34962E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://qiqstanb222:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OneRewardsMvc.Tests\\OneRewardsMvc.Tests.csproj
+		SccProjectName1 = OneRewardsMvc.Tests
+		SccLocalPath1 = OneRewardsMvc.Tests
+		SccProjectUniqueName2 = OneRewardsMvc\\OneRewardsMvc.csproj
+		SccProjectName2 = OneRewardsMvc
+		SccLocalPath2 = OneRewardsMvc
+		SccProjectUniqueName3 = OneRewardsTestProject\\OneRewardsTestProject.csproj
+		SccProjectName3 = OneRewardsTestProject
+		SccLocalPath3 = OneRewardsTestProject
+		SccProjectUniqueName4 = OneRewardsWcfService\\OneRewardsWcfService.csproj
+		SccProjectName4 = OneRewardsWcfService
+		SccLocalPath4 = OneRewardsWcfService
+		SccProjectUniqueName5 = OneRewardsPhoneApp\\OneRewardsPhoneApp.csproj
+		SccProjectName5 = OneRewardsPhoneApp
+		SccLocalPath5 = OneRewardsPhoneApp
+		SccProjectUniqueName6 = OneRewardsPhoneAppUnitTest\\OneRewardsPhoneAppUnitTest.csproj
+		SccProjectName6 = OneRewardsPhoneAppUnitTest
+		SccLocalPath6 = OneRewardsPhoneAppUnitTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96251C9D-B256-47E2-8577-8865214B89EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96251C9D-B256-47E2-8577-8865214B89EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96251C9D-B256-47E2-8577-8865214B89EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96251C9D-B256-47E2-8577-8865214B89EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96251C9D-B256-47E2-8577-8865214B89EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96251C9D-B256-47E2-8577-8865214B89EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB353315-10F6-4EC1-AFD3-02E7BFDDB63D}.Release|x86.ActiveCfg = Release|Any CPU
+		{C05A854F-72D3-45A9-9607-860F1D51DA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05A854F-72D3-45A9-9607-860F1D51DA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05A854F-72D3-45A9-9607-860F1D51DA60}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C05A854F-72D3-45A9-9607-860F1D51DA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05A854F-72D3-45A9-9607-860F1D51DA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05A854F-72D3-45A9-9607-860F1D51DA60}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC2F495-9D7D-477A-92E6-85E5BC5CC064}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2C6AD7FC-1902-48AD-9AD3-27EB2E0A6A95}.Release|x86.ActiveCfg = Release|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Debug|x86.ActiveCfg = Debug|x86
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Debug|x86.Build.0 = Debug|x86
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Debug|x86.Deploy.0 = Debug|x86
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Release|x86.Build.0 = Release|Any CPU
+		{F378B947-C7A2-440F-99D5-5E8C0F34962E}.Release|x86.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

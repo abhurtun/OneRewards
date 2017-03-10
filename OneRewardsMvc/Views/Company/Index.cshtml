@@ -1,0 +1,55 @@
+﻿@model IEnumerable<OneRewardsMvc.Models.Company>
+
+@{
+    ViewBag.Title = "Company";
+}
+
+<h2>Company</h2>
+
+<p>
+@if (OneRewardsMvc.Models.Utilities.superUser)
+{
+    @Html.ActionLink("Create New", "Create")
+    }
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </th>
+        <th></th>
+        <th>
+        @Html.DisplayNameFor(model => model.CompanyLogo)
+        </th>
+        <th></th>
+        <th>
+        @Html.DisplayNameFor(model => model.CompanyRewardsLink)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyName)
+        </td>
+        <td></td>
+        <td>
+        <img src="@Url.Action("getImg", "Company", new { id = item.CompanyID })" width="50" height="40" alt="CompanyLogo" />
+        </td>
+        <td></td>
+        <td>
+        <a href="@Html.DisplayFor(modelItem => item.CompanyRewardsLink)">Visit @Html.DisplayFor(modelItem => item.CompanyName)</a>
+        </td>
+        <td>
+        @if (OneRewardsMvc.Models.Utilities.superUser)
+        {
+            @Html.ActionLink("Edit", "Edit", new { id=item.CompanyID })} |
+            @if (OneRewardsMvc.Models.Utilities.superUser)
+            {
+            @Html.ActionLink("Delete", "Delete", new { id=item.CompanyID })
+            }
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,43 @@
+﻿@model OneRewardsMvc.Models.RewardAccount
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Collect Points</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>RewardAccount</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RewardAccountID)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.RewardAccountID)
+            @Html.ValidationMessageFor(model => model.RewardAccountID)
+        </div>
+
+        <div class="editor-label">
+            @Html.DisplayName("Receipt number:")
+        </div>
+        <div class="editor-field">
+            @Html.TextBox("ReceiptNum")
+            @Html.ValidationMessage("ReceiptNum")
+        </div>
+
+        <p>
+            <input type="submit" value="Collect Points" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

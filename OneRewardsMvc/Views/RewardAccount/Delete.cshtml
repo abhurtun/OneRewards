@@ -1,0 +1,38 @@
+﻿@model OneRewardsMvc.Models.RewardAccount
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>RewardAccount</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RewardAccountID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RewardAccountID)
+    </div>
+        <div class="display-label">
+         @Html.DisplayNameFor(model => model.Company.CompanyName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Company.CompanyName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Company.CompanyLogo)
+    </div>
+    <div class="display-field">
+    <img src="@Url.Action("getImg", "RewardAccount", new { id = (Model.Company.CompanyID) })" width="50" height="40" alt="CompanyLogo" />
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

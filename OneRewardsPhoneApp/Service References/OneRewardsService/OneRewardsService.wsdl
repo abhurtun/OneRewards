@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://onerewardswcf.azurewebsites.net/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://onerewardswcf.azurewebsites.net/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://onerewardswcf.azurewebsites.net/Imports">
+      <xsd:import schemaLocation="http://onerewardswcf.azurewebsites.net/OneRewardsService.svc?xsd=xsd0" namespace="http://onerewardswcf.azurewebsites.net/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IOneRewardsService_autenticate_InputMessage">
+    <wsdl:part name="parameters" element="tns:autenticate" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_autenticate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:autenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getAllRewardsAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllRewardsAccount" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getAllRewardsAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllRewardsAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getAllRewardsAccount_RewardAccountFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:RewardAccount" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanys_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanys" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanys_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanysResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanys_CompanyFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:Company" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getRewardsAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:getRewardsAccount" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getRewardsAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getRewardsAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyID_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyID" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyNames_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyNames" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyNames_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_addRewardsAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:addRewardsAccount" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_addRewardsAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addRewardsAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getTPoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:getTPoints" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getTPoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getTPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getAPoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAPoints" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getAPoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_updatePoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:updatePoints" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_updatePoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updatePointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_removeRewardsAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:removeRewardsAccount" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_removeRewardsAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:removeRewardsAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyLogo_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyLogo" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyLogo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyLogoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyLogoID_InputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyLogoID" />
+  </wsdl:message>
+  <wsdl:message name="IOneRewardsService_getCompanyLogoID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getCompanyLogoIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IOneRewardsService">
+    <wsdl:operation name="autenticate">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/autenticate" message="tns:IOneRewardsService_autenticate_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/autenticateResponse" message="tns:IOneRewardsService_autenticate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllRewardsAccount">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getAllRewardsAccount" message="tns:IOneRewardsService_getAllRewardsAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getAllRewardsAccountResponse" message="tns:IOneRewardsService_getAllRewardsAccount_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getAllRewardsAccountRewardAccountFault" name="RewardAccountFault" message="tns:IOneRewardsService_getAllRewardsAccount_RewardAccountFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanys">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanys" message="tns:IOneRewardsService_getCompanys_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanysResponse" message="tns:IOneRewardsService_getCompanys_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanysCompanyFault" name="CompanyFault" message="tns:IOneRewardsService_getCompanys_CompanyFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getRewardsAccount">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getRewardsAccount" message="tns:IOneRewardsService_getRewardsAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getRewardsAccountResponse" message="tns:IOneRewardsService_getRewardsAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyID">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyID" message="tns:IOneRewardsService_getCompanyID_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyIDResponse" message="tns:IOneRewardsService_getCompanyID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyNames">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyNames" message="tns:IOneRewardsService_getCompanyNames_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyNamesResponse" message="tns:IOneRewardsService_getCompanyNames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addRewardsAccount">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/addRewardsAccount" message="tns:IOneRewardsService_addRewardsAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/addRewardsAccountResponse" message="tns:IOneRewardsService_addRewardsAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getTPoints">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getTPoints" message="tns:IOneRewardsService_getTPoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getTPointsResponse" message="tns:IOneRewardsService_getTPoints_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAPoints">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getAPoints" message="tns:IOneRewardsService_getAPoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getAPointsResponse" message="tns:IOneRewardsService_getAPoints_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updatePoints">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/updatePoints" message="tns:IOneRewardsService_updatePoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/updatePointsResponse" message="tns:IOneRewardsService_updatePoints_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="removeRewardsAccount">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/removeRewardsAccount" message="tns:IOneRewardsService_removeRewardsAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/removeRewardsAccountResponse" message="tns:IOneRewardsService_removeRewardsAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyLogo">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyLogo" message="tns:IOneRewardsService_getCompanyLogo_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyLogoResponse" message="tns:IOneRewardsService_getCompanyLogo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyLogoID">
+      <wsdl:input wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyLogoID" message="tns:IOneRewardsService_getCompanyLogoID_InputMessage" />
+      <wsdl:output wsaw:Action="http://onerewardswcf.azurewebsites.net/IOneRewardsService/getCompanyLogoIDResponse" message="tns:IOneRewardsService_getCompanyLogoID_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        One rewards is a website that allows you to
+        collect and retrive points for all your rewards cards online. 
+    </p>
+
+    <p>
+        You can collect point using a printed receipt or via the mobile app
+        which can be downloaded through the QR code.
+    </p>
+
+</article>
+
+<aside>
+    <h3>OneRewards Mobile</h3>
+    <p>
+        Download the mobile app from the Home Page.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</aside>

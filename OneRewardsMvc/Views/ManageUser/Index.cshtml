@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "ManageUser";
+}
+
+<h2>UserManagement</h2>
+
+<p>
+    @Html.ActionLink("Assign role", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+         Username   
+        </th>
+        <th></th>
+        <th>
+        CreationDate
+        </th>
+        <th></th>
+        <th>
+        LastLoginDate
+        </th>
+        <th></th>
+        <th>
+        IsLockedOut
+        </th>
+        <th></th>
+        <th>
+        Role
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (MembershipUser item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td></td>
+        <td>
+        @Html.DisplayFor(modelItem => item.CreationDate)
+        </td>
+                <td></td>
+                <td>
+        @Html.DisplayFor(modelItem => item.LastLoginDate)
+        </td>
+                <td></td>
+                <td>
+        @Html.DisplayFor(modelItem => item.IsLockedOut)
+        </td>
+                <td></td>
+                @foreach (String x in Roles.GetRolesForUser(item.UserName))
+                {
+                    String.Join(",",x);
+                    
+                                <td>  
+        @Html.DisplayFor(modelItem => x)
+        </td>}
+                <td></td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id = item.UserName})
+        </td>
+    </tr>
+}
+
+</table>

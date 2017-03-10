@@ -1,0 +1,17 @@
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\LoadTest1.loadtest
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\OneRewardsTestProject.dll.config
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\OneRewardsTestProject.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\OneRewardsTestProject.pdb
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Nito.AsyncEx.UnitTests.MSTest.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\OneRewardsWcfService.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\System.Web.Providers.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\OneRewardsWcfService.pdb
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\bin\Release\Nito.AsyncEx.UnitTests.MSTest.xml
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\obj\Release\ResolveAssemblyReference.cache
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\obj\Release\OneRewardsTestProject.dll
+C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsTestProject\obj\Release\OneRewardsTestProject.pdb

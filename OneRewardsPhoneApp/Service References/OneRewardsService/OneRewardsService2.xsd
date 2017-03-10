@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://onerewardswcf.azurewebsites.net/" elementFormDefault="qualified" targetNamespace="http://onerewardswcf.azurewebsites.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="autenticate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autenticateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="autenticateResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllRewardsAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="email" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllRewardsAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="getAllRewardsAccountResult" type="tns:ArrayOfRewardAccount" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfRewardAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RewardAccount" nillable="true" type="tns:RewardAccount" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RewardAccount">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="RewardAccountID" type="xs:long" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CompanyID" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="UserName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Points" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TotalPoints" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CompanyReference" type="tns:EntityReferenceOfCompany" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EntityObject" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:StructuralObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="EntityKey" type="tns:EntityKey" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="StructuralObject" abstract="true" />
+  <xs:complexType name="EntityKey">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="EntitySetName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EntityContainerName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EntityKeyValues" type="tns:ArrayOfEntityKeyMember" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfEntityKeyMember">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EntityKeyMember" nillable="true" type="tns:EntityKeyMember" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EntityKeyMember">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Key" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EntityReferenceOfCompany">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EntityReference" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EntityReference" abstract="true">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RelatedEnd">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="EntityKey" type="tns:EntityKey" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="RelatedEnd" abstract="true" />
+  <xs:element name="RewardAccount" nillable="true" type="tns:RewardAccount" />
+  <xs:element name="getCompanys">
+    <xs:complexType />
+  </xs:element>
+  <xs:complexType name="ArrayOfCompany">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Company" nillable="true" type="tns:Company" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Company">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="CompanyID" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CompanyName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CompanyLogo" type="xs:base64Binary" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CompanyRewardsLink" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="getCompanysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="getCompanysResult" type="tns:ArrayOfCompany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Company" nillable="true" type="tns:Company" />
+  <xs:element name="getRewardsAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="accid" type="xs:long" />
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getRewardsAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="getRewardsAccountResult" type="tns:RewardAccount" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="cname" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="getCompanyIDResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyNames">
+    <xs:complexType />
+  </xs:element>
+  <xs:complexType name="ArrayOfString">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getCompanyNamesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="getCompanyNamesResult" type="tns:ArrayOfString" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addRewardsAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="accid" type="xs:long" />
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+        <xs:element minOccurs="0" maxOccurs="1" name="email" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addRewardsAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="addRewardsAccountResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getTPoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="accid" type="xs:long" />
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getTPointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="getTPointsResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAPoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="accid" type="xs:long" />
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAPointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="getAPointsResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updatePoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="accid" type="xs:long" />
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+        <xs:element minOccurs="1" maxOccurs="1" name="points" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updatePointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="updatePointsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="removeRewardsAccount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="accid" type="xs:long" />
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="removeRewardsAccountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="removeRewardsAccountResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyLogo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyLogoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="getCompanyLogoResult" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyLogoID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="cid" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getCompanyLogoIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="getCompanyLogoIDResult" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

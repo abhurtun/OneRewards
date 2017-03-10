@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - OneRewards</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/themes/base/css", "~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("Logo","Index", "Home", new { @class = "site-logo" })
+                   </p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            @if (OneRewardsMvc.Models.Utilities.checkUser)
+                            {<li>@Html.ActionLink("RewardAccount", "Index", "RewardAccount")</li>
+                            <li>@Html.ActionLink("Company", "Index", "Company")</li>}
+                            @if (OneRewardsMvc.Models.Utilities.superUser)
+                            {<li>@Html.ActionLink("ManageUser", "Index", "ManageUser")</li>}
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - OneRewards</p>
+                </div>
+                <div class="float-right">
+                <p>Time: @DateTime.Now.ToLongTimeString()</p>
+                    <ul id="social">
+                        <li><a href="http://facebook.com" class="facebook">Facebook</a></li>
+                        <li><a href="http://twitter.com" class="twitter">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IOneRewardsService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://onerewardswcf.azurewebsites.net/OneRewardsService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IOneRewardsService"
+                contract="OneRewardsService.IOneRewardsService" name="BasicHttpBinding_IOneRewardsService" />
+        </client>
+    </system.serviceModel>
+</configuration>

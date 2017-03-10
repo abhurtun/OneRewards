@@ -1,0 +1,54 @@
+﻿@model OneRewardsMvc.Models.RewardAccount
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>RewardAccount</legend>
+
+        <div class="editor-label">
+            @Html.DisplayText("Reward Account Number")
+        </div>
+        <div class="editor-field">
+            Enter Rewards/Card Number: @Html.TextBoxFor(model => model.RewardAccountID)
+            @Html.ValidationMessageFor(model => model.RewardAccountID)
+        </div>
+
+        <div class="editor-label">
+            @Html.DisplayText("Company")
+        </div>
+        <div class="editor-field">
+            Choose From Avaliable Company: @Html.DropDownList("CompanyList") 
+        </div>
+
+        @*Hidden values to pass back *@
+
+         <div class="editor-field">
+            @Html.Hidden("Points",0) 
+        </div>
+                 <div class="editor-field">
+            @Html.Hidden("TotalPoints",0) 
+        </div>
+                         <div class="editor-field">
+            @Html.Hidden("UserName",HttpContext.Current.User.Identity.Name) 
+        </div>
+
+        <p>
+            <input type="submit" value="Create Rewards Account" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Assign role</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Assign role</legend>
+
+        <div class="editor-label">
+        User Name:@Html.TextBox("User")
+        </div>
+        <div class="editor-field">
+        <select name="role">
+
+  <option>Administrator</option>
+  <option>User</option>
+  </select>
+@*            @Html.DropDownList("ListItems")*@
+        </div>
+
+        <p>
+            <input type="submit" value="Assign role" />
+        </p>
+
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

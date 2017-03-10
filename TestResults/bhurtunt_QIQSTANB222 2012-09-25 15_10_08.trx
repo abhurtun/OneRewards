@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fb6882b1-bf5a-4e49-9593-4615c5eb1519" name="bhurtunt@QIQSTANB222 2012-09-25 15:10:08" runUser="QIQ\bhurtunt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cc37a548-0a1e-4665-bb19-abe0d6af83c3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="bhurtunt_QIQSTANB222 2012-09-25 15_10_08">
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsWcfService\bin\OneRewardsWcfService.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc\bin\OneRewardsMvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc.Tests\bin\Release\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-25T15:10:08.1986138+01:00" queuing="2012-09-25T15:10:09.8737813+01:00" start="2012-09-25T15:10:10.1868126+01:00" finish="2012-09-25T15:16:13.8721775+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="76" executed="76" passed="21" error="0" failed="55" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="removeRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1693e4db-f862-1c48-6c21-acdbd7afc342">
+      <Execution id="0dfae233-7d27-47b4-857c-a2484e6a1ecf" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="removeRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e83d5e76-81cb-7aa5-6350-533ceff0a688">
+      <Execution id="3abb99eb-cb80-40eb-bd7d-19796a750b30" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest1" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="51975c1c-4e33-f71d-0de2-af5df9be6738">
+      <Execution id="72dc6ce2-6395-4979-80a0-fa2a6ff17e9e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyIDTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConvertImageFiletoBytesTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="c3470532-85b6-cfc4-e394-8ff591a2d3f9">
+      <Execution id="9e56f6e2-20b7-47fa-ba58-180ddbc6be62" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConvertImageFiletoBytesTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="LoginTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7bccd21c-8788-8f6b-24d4-252f03c32562">
+      <Execution id="89eda12f-334d-414c-8c2e-2192d142e685" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="dfed860a-a785-21dc-6a75-52bf42003c70">
+      <Execution id="994f6bf3-cd07-43d3-88da-7d85ab71e706" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest1" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ManageUserControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="cb123c34-53d6-8589-a530-6019f5c69297">
+      <Execution id="410751df-55f4-4539-a0bf-e714eebb01d6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ManageUserControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="getAPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1cc26711-067d-90ed-698f-eafeaf6ffdce">
+      <Execution id="6483aab7-c06a-436a-b675-7b22e290db2b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAPointsTest" />
+    </UnitTest>
+    <UnitTest name="updatePointsTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="cc0be8b2-6b98-51d5-aa58-deb93b8dda05">
+      <Execution id="e3d10043-df5b-4718-982d-409e2fadc165" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updatePointsTest1" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="713d46ab-6981-fbf5-ac44-81204a8a219e">
+      <Execution id="b8e48323-3e28-45cb-bbde-34dd892444ff" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="OneRewardsInitializerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="46346720-47cc-a1a5-62c4-07a919cfeca1">
+      <Execution id="02d349c0-91c1-47c7-9f1a-86b47e624c79" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsInitializerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneRewardsInitializerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="376d4788-8860-6174-3388-983e231b8249">
+      <Execution id="0b8f3973-6284-44cd-9c37-1215809bb528" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7036f143-371c-6f5c-0405-5641f0559823">
+      <Execution id="3b3307a2-835a-44b0-a33e-02bb91b1a611" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyNameTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="0a370041-7040-2e13-5863-bac5253f5ac5">
+      <Execution id="f4eb0eb8-9b65-4f52-b3cd-95fce618a110" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountsTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="TotalPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9ece2e17-897e-6388-d7d8-b0118f0c769a">
+      <Execution id="8b420acc-3f2b-4ae3-a7a1-5783c24a84e9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TotalPointsTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanysTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5d19af3b-a1f7-93d9-f491-f55c1806498c">
+      <Execution id="213306b6-1ed9-4580-a57c-7fab1ac81090" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanysTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EmailTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="78b00d71-1a05-ac7a-2671-0133262f0f63">
+      <Execution id="322c210b-99d2-4fc5-b75a-79c7c745a2ea" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmailTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="superUserTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="77a4f4e8-b860-8022-afa0-04f704a7d75b">
+      <Execution id="cdd25b1b-adc3-4714-9c63-f602b86d99f3" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="superUserTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="LoginTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="63d0853f-8615-5260-30bf-6de8d2e4f284">
+      <Execution id="e1a255c2-e8cd-425f-a9e3-e76c5e71a3cf" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest1" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="NewPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="43d82bd3-0aa5-484b-e322-8b19b19a32b8">
+      <Execution id="b618918f-c368-457b-b89a-c9575b2b4a64" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewPasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bd3310f4-b4bd-3ae6-6615-9138f25eecfe">
+      <Execution id="01441b86-82e7-4d45-83f1-ea07fd58eb11" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="47c84612-e9a7-0037-f786-2df27ea2d7d5">
+      <Execution id="9e3b0d96-db41-4962-b584-c89a3351cd0a" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="8141c866-f817-7fc4-cbec-b68e4ba3e60d">
+      <Execution id="f286faa7-0d3d-43e0-ae60-a947a96d1fbb" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountIDTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RewardAccountConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a">
+      <Execution id="8e1ceb19-7427-4ac4-be08-dd9059cbdf9b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RewardAccountConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccessTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5">
+      <Execution id="8bc98cc2-9009-472b-bbdc-95cf322f27de" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccessTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4">
+      <Execution id="b6643d09-46d6-44e5-b68d-fa0e4ab3e888" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="getAllRewardsAccountTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="1d26647c-42ba-c0b9-2ee7-5450efeecfd9">
+      <Execution id="891075d6-17a2-4bae-9637-c4f93b8f208d" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAllRewardsAccountTest1" />
+    </UnitTest>
+    <UnitTest name="VerifyAppDomainHasConfigurationSettings" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="145fdb5f-e5e9-756f-1a85-85923f93c7a4">
+      <Execution id="c66ed522-61d0-4d30-a4e7-5b2ba8c11067" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyAppDomainHasConfigurationSettings" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2">
+      <Execution id="72781709-7f82-4d1f-84cf-644920bec6d9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="f75630da-5c1f-a916-4e6a-f746a6a75e69">
+      <Execution id="dfb8761a-21e2-4c65-bd34-7985e806a33e" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PointsTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="be281358-853b-1fea-8ed3-2f2e8b12cbc5">
+      <Execution id="82a18620-39a0-4c83-afcd-a031b745a0bd" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="updatePointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="e82191a5-2f62-4d54-fa6f-90c6e1d348a4">
+      <Execution id="fb69e7bf-a0e3-4a2f-aefa-96bcd1fecfc4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updatePointsTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="b6efabb5-ab30-c84c-1c96-a4c8b0070e25">
+      <Execution id="68c0d727-03bc-46da-8abf-391fe58ea998" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5c4a3b81-d2e9-390e-4d47-debd5f30f955">
+      <Execution id="95409c08-ab87-4f5c-b55d-e2e932afe7cd" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="getCompanyLogoTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="3123d3c1-b807-14df-258c-4bcb70729054">
+      <Execution id="5fb1c449-1708-4735-ad68-f590982460d4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getCompanyLogoTest" />
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="569db36b-aaf6-0347-4a22-0da6b66abb9d">
+      <Execution id="af470811-7c17-470e-9c59-a635563bb6fb" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f">
+      <Execution id="482e19e5-af34-434f-af24-ec24e48295b7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="getTPointsTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="48762070-4a75-7928-4c52-f763f6fa0806">
+      <Execution id="282e424f-70fa-4f48-b7e8-6e7b4503949f" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getTPointsTest" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="29ea4fd2-7950-bb6f-6670-81b029ce6dc7">
+      <Execution id="e3150454-3390-4803-bb07-069147805b84" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="00be0e1b-b601-c776-f2f0-30741904f1b1">
+      <Execution id="9b7f79fd-5cf3-4ad0-8d24-3ec2031d410b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="addDuplicateRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="77d7d89d-1e6e-7b7f-2b0f-a16d7a49ede6">
+      <Execution id="446990db-9722-4032-a761-13a1e8f89019" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addDuplicateRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189">
+      <Execution id="b54cfc1f-7ee2-4bbf-aca7-82e61a19a993" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99">
+      <Execution id="1f4c4aa3-9411-4309-96f8-7ccac4056224" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.AccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="b5b4cb24-5563-1383-6cd4-4e0379aff743">
+      <Execution id="49cf3150-c4ad-4ad3-97b7-b5fa145ed980" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="getAPointsTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="f54be62e-b6ef-0fd9-a706-6249527c3013">
+      <Execution id="91249b8d-a7dd-40e1-99ca-d2a3cf2720c7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAPointsTest1" />
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="19b2f990-75a9-1a45-e5ae-b316dcaf04c2">
+      <Execution id="3134695e-85fa-4652-96e0-99c75113b4c8" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203">
+      <Execution id="bc7c9cb5-261b-441f-8b9a-6e87f02c5ab6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="randomNumberTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="21be142e-5370-ae21-e2dc-be63484b5918">
+      <Execution id="08373b99-021d-475b-bc66-641de64c55b6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RewardAccountControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="randomNumberTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyLogoTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411">
+      <Execution id="a999abfb-d53d-457d-b495-f91106a23326" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyLogoTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="17bdc49d-92ff-5313-d946-c26cad936b82">
+      <Execution id="12285ced-3330-4494-9ca0-e33d8e9cea69" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="getRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="19c3c3f8-0de5-98b3-b920-2aa3a45b3c3a">
+      <Execution id="fe97b289-ebe1-4ccc-ad9d-11fdca985da7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="RegisterModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6">
+      <Execution id="1bcb4a97-9e73-40cb-a627-90657aefffdd" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterModelConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="bfa3d854-20e9-afaf-6a5b-84d340d16475">
+      <Execution id="7c2de121-3439-4b9e-910e-54b3242c02d9" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="0500de23-aeeb-f6c6-c692-6fab2def3d9a">
+      <Execution id="270219ef-0754-4ab7-aab7-c6484724d307" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RememberMeTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="6d0c9798-42d3-4120-fbc0-fe8daffcbb33">
+      <Execution id="80f64713-e8b8-4aa5-a978-3ab99471b7f6" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RememberMeTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ChangePasswordModelConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="45ccdcf3-4686-de7a-54f8-2bf19bffaf16">
+      <Execution id="b23348f7-f8ea-4291-9dc2-63838968c126" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordModelConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="74ac799f-e2d2-c781-beb2-a4a8877d42d6">
+      <Execution id="1fef2556-310a-4941-ac3c-6004bf2f17e7" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="5d366f05-d5ed-f6a1-c3f5-0946714cc580">
+      <Execution id="2f3ccc9a-01bb-4845-a909-7359e0f4fb87" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.LoginModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="OneRewardsContextConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="429d7597-ec02-7233-723e-1f5db3d511c3">
+      <Execution id="860cd070-caca-42aa-bba6-65280482811d" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.OneRewardsContextTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneRewardsContextConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Contact" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="11fe0478-6fbe-efe8-a7c0-eff58555c624">
+      <Execution id="cde770a8-779a-4a82-85af-fd18b1fdbd3d" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="DeleteConfirmedTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="51172c26-1e69-f479-42c2-1d171b70610e">
+      <Execution id="207ea4d3-f01c-4eaa-98bf-13cccab58abe" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteConfirmedTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="9393a8b0-c66a-8c79-0e50-8db802539041">
+      <Execution id="bedce835-92ab-4053-afec-0b2a64f6475b" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Controllers.HomeControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="CompanyControllerConstructorTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="048c21fc-22db-258a-b14e-0727745eb56f">
+      <Execution id="09e6d677-dba4-400a-b577-21434c6f6908" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyIDTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="2da4bebc-3c59-5ad6-f979-253de0819eef">
+      <Execution id="c0bda683-4f70-4c08-9e10-093a1158b2fe" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyIDTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="52b67e0d-05da-bc84-8704-39676712c651">
+      <Execution id="8e6f94cb-6298-46b0-a641-da4c4856a079" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ManageUserControllerTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="autenticateUnregisteredTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="598a27e1-d830-9fbb-0960-89499962ae78">
+      <Execution id="16e53c3d-bdc1-465d-93d1-2b8b04c9fa21" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="autenticateUnregisteredTest" />
+    </UnitTest>
+    <UnitTest name="getAllRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="f9952bbc-fdc3-e8c2-a850-eb918257649d">
+      <Execution id="04534ccc-b1a1-4030-b9e6-8c8dbb27faa4" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getAllRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="autenticatRegisteredTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="5176054c-75c6-838b-4970-d3108d95b0c4">
+      <Execution id="aff24f8f-bc59-4a1b-8ff2-0a5f430e778c" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="autenticatRegisteredTest" />
+    </UnitTest>
+    <UnitTest name="updatePointsTest2" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="37d24a8f-6816-1971-ad17-a13c8dbb2c2f">
+      <Execution id="9295b7f6-5469-42fa-b33c-3a103c50ca52" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updatePointsTest2" />
+    </UnitTest>
+    <UnitTest name="checkUserTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="aa374df2-50fc-43d7-2eb6-9baf87f49e00">
+      <Execution id="0d43a959-2044-4674-8758-025f43ba36c5" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.UtilitiesTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkUserTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CompanyRewardsLinkTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="f7d76670-4ea5-14d9-3740-a9f0c64dcb60">
+      <Execution id="d374835f-848f-43dc-a8a2-7b1e96e91d77" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.CompanyTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompanyRewardsLinkTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d">
+      <Execution id="adb69211-dee0-4798-873b-380d09478428" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.RegisterModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="820156b9-ad9f-ae65-c2ee-43ca08069599">
+      <Execution id="525e0c5d-3909-473d-919a-c1993e258b13" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.Views.CodedUITest1, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="removeRewardsAccountTest1" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="03723c9d-78b0-9a97-d39b-ea9adc0b5032">
+      <Execution id="7c9156d4-47de-4222-9635-b03fa21f0f67" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="removeRewardsAccountTest1" />
+    </UnitTest>
+    <UnitTest name="addRewardsAccountTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardstestproject\bin\release\onerewardstestproject.dll" id="ec07ab5b-4fa9-bdff-0466-b2f2dd14af3d">
+      <Execution id="fed55fa1-7a36-4d15-9015-57bc85815327" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsTestProject/bin/Release/OneRewardsTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsTestProject.IOneRewardsServiceTest, OneRewardsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addRewardsAccountTest" />
+    </UnitTest>
+    <UnitTest name="OldPasswordTest" storage="c:\users\bhurtunt\documents\visual studio 2010\projects\onerewardscloudservice\onerewardsmvc.tests\bin\release\onerewardsmvc.tests.dll" id="ed20047a-3110-0877-3507-be97b1a3c1c4">
+      <Execution id="d4c55adc-e4da-493c-870a-aec1c1af01b2" />
+      <TestMethod codeBase="C:/Users/bhurtunt/Documents/Visual Studio 2010/Projects/OneRewardsCloudService/OneRewardsMvc.Tests/bin/Release/OneRewardsMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OneRewardsMvc.Tests.ChangePasswordModelTest, OneRewardsMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OldPasswordTest" />
+      <AspNet webSiteUrl="http://localhost:23577/">
+        <Host pathToWebApp="C:\Users\bhurtunt\Documents\Visual Studio 2010\Projects\OneRewardsCloudService\OneRewardsMvc" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="048c21fc-22db-258a-b14e-0727745eb56f" executionId="09e6d677-dba4-400a-b577-21434c6f6908" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cc26711-067d-90ed-698f-eafeaf6ffdce" executionId="6483aab7-c06a-436a-b675-7b22e290db2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21be142e-5370-ae21-e2dc-be63484b5918" executionId="08373b99-021d-475b-bc66-641de64c55b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43d82bd3-0aa5-484b-e322-8b19b19a32b8" executionId="b618918f-c368-457b-b89a-c9575b2b4a64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411" executionId="a999abfb-d53d-457d-b495-f91106a23326" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00be0e1b-b601-c776-f2f0-30741904f1b1" executionId="9b7f79fd-5cf3-4ad0-8d24-3ec2031d410b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1693e4db-f862-1c48-6c21-acdbd7afc342" executionId="0dfae233-7d27-47b4-857c-a2484e6a1ecf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" executionId="b54cfc1f-7ee2-4bbf-aca7-82e61a19a993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9393a8b0-c66a-8c79-0e50-8db802539041" executionId="bedce835-92ab-4053-afec-0b2a64f6475b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0500de23-aeeb-f6c6-c692-6fab2def3d9a" executionId="270219ef-0754-4ab7-aab7-c6484724d307" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be281358-853b-1fea-8ed3-2f2e8b12cbc5" executionId="82a18620-39a0-4c83-afcd-a031b745a0bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03723c9d-78b0-9a97-d39b-ea9adc0b5032" executionId="7c9156d4-47de-4222-9635-b03fa21f0f67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" executionId="3abb99eb-cb80-40eb-bd7d-19796a750b30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6" executionId="1bcb4a97-9e73-40cb-a627-90657aefffdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19c3c3f8-0de5-98b3-b920-2aa3a45b3c3a" executionId="fe97b289-ebe1-4ccc-ad9d-11fdca985da7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb123c34-53d6-8589-a530-6019f5c69297" executionId="410751df-55f4-4539-a0bf-e714eebb01d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="820156b9-ad9f-ae65-c2ee-43ca08069599" executionId="525e0c5d-3909-473d-919a-c1993e258b13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d0c9798-42d3-4120-fbc0-fe8daffcbb33" executionId="80f64713-e8b8-4aa5-a978-3ab99471b7f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa374df2-50fc-43d7-2eb6-9baf87f49e00" executionId="0d43a959-2044-4674-8758-025f43ba36c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74ac799f-e2d2-c781-beb2-a4a8877d42d6" executionId="1fef2556-310a-4941-ac3c-6004bf2f17e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d26647c-42ba-c0b9-2ee7-5450efeecfd9" executionId="891075d6-17a2-4bae-9637-c4f93b8f208d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a" executionId="8e1ceb19-7427-4ac4-be08-dd9059cbdf9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77a4f4e8-b860-8022-afa0-04f704a7d75b" executionId="cdd25b1b-adc3-4714-9c63-f602b86d99f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" executionId="1f4c4aa3-9411-4309-96f8-7ccac4056224" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2" executionId="72781709-7f82-4d1f-84cf-644920bec6d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfed860a-a785-21dc-6a75-52bf42003c70" executionId="994f6bf3-cd07-43d3-88da-7d85ab71e706" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd3310f4-b4bd-3ae6-6615-9138f25eecfe" executionId="01441b86-82e7-4d45-83f1-ea07fd58eb11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46346720-47cc-a1a5-62c4-07a919cfeca1" executionId="02d349c0-91c1-47c7-9f1a-86b47e624c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f75630da-5c1f-a916-4e6a-f746a6a75e69" executionId="dfb8761a-21e2-4c65-bd34-7985e806a33e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52b67e0d-05da-bc84-8704-39676712c651" executionId="8e6f94cb-6298-46b0-a641-da4c4856a079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11fe0478-6fbe-efe8-a7c0-eff58555c624" executionId="cde770a8-779a-4a82-85af-fd18b1fdbd3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78b00d71-1a05-ac7a-2671-0133262f0f63" executionId="322c210b-99d2-4fc5-b75a-79c7c745a2ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8141c866-f817-7fc4-cbec-b68e4ba3e60d" executionId="f286faa7-0d3d-43e0-ae60-a947a96d1fbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2da4bebc-3c59-5ad6-f979-253de0819eef" executionId="c0bda683-4f70-4c08-9e10-093a1158b2fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c4a3b81-d2e9-390e-4d47-debd5f30f955" executionId="95409c08-ab87-4f5c-b55d-e2e932afe7cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ece2e17-897e-6388-d7d8-b0118f0c769a" executionId="8b420acc-3f2b-4ae3-a7a1-5783c24a84e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5176054c-75c6-838b-4970-d3108d95b0c4" executionId="aff24f8f-bc59-4a1b-8ff2-0a5f430e778c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4" executionId="b6643d09-46d6-44e5-b68d-fa0e4ab3e888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d" executionId="adb69211-dee0-4798-873b-380d09478428" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec07ab5b-4fa9-bdff-0466-b2f2dd14af3d" executionId="fed55fa1-7a36-4d15-9015-57bc85815327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51975c1c-4e33-f71d-0de2-af5df9be6738" executionId="72dc6ce2-6395-4979-80a0-fa2a6ff17e9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="376d4788-8860-6174-3388-983e231b8249" executionId="0b8f3973-6284-44cd-9c37-1215809bb528" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" executionId="bc7c9cb5-261b-441f-8b9a-6e87f02c5ab6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfa3d854-20e9-afaf-6a5b-84d340d16475" executionId="7c2de121-3439-4b9e-910e-54b3242c02d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e82191a5-2f62-4d54-fa6f-90c6e1d348a4" executionId="fb69e7bf-a0e3-4a2f-aefa-96bcd1fecfc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6efabb5-ab30-c84c-1c96-a4c8b0070e25" executionId="68c0d727-03bc-46da-8abf-391fe58ea998" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7d76670-4ea5-14d9-3740-a9f0c64dcb60" executionId="d374835f-848f-43dc-a8a2-7b1e96e91d77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" executionId="8bc98cc2-9009-472b-bbdc-95cf322f27de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63d0853f-8615-5260-30bf-6de8d2e4f284" executionId="e1a255c2-e8cd-425f-a9e3-e76c5e71a3cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48762070-4a75-7928-4c52-f763f6fa0806" executionId="282e424f-70fa-4f48-b7e8-6e7b4503949f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="569db36b-aaf6-0347-4a22-0da6b66abb9d" executionId="af470811-7c17-470e-9c59-a635563bb6fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19b2f990-75a9-1a45-e5ae-b316dcaf04c2" executionId="3134695e-85fa-4652-96e0-99c75113b4c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bccd21c-8788-8f6b-24d4-252f03c32562" executionId="89eda12f-334d-414c-8c2e-2192d142e685" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7036f143-371c-6f5c-0405-5641f0559823" executionId="3b3307a2-835a-44b0-a33e-02bb91b1a611" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="429d7597-ec02-7233-723e-1f5db3d511c3" executionId="860cd070-caca-42aa-bba6-65280482811d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d366f05-d5ed-f6a1-c3f5-0946714cc580" executionId="2f3ccc9a-01bb-4845-a909-7359e0f4fb87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed20047a-3110-0877-3507-be97b1a3c1c4" executionId="d4c55adc-e4da-493c-870a-aec1c1af01b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a370041-7040-2e13-5863-bac5253f5ac5" executionId="f4eb0eb8-9b65-4f52-b3cd-95fce618a110" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3470532-85b6-cfc4-e394-8ff591a2d3f9" executionId="9e56f6e2-20b7-47fa-ba58-180ddbc6be62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5b4cb24-5563-1383-6cd4-4e0379aff743" executionId="49cf3150-c4ad-4ad3-97b7-b5fa145ed980" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="598a27e1-d830-9fbb-0960-89499962ae78" executionId="16e53c3d-bdc1-465d-93d1-2b8b04c9fa21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="713d46ab-6981-fbf5-ac44-81204a8a219e" executionId="b8e48323-3e28-45cb-bbde-34dd892444ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" executionId="c66ed522-61d0-4d30-a4e7-5b2ba8c11067" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d19af3b-a1f7-93d9-f491-f55c1806498c" executionId="213306b6-1ed9-4580-a57c-7fab1ac81090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9952bbc-fdc3-e8c2-a850-eb918257649d" executionId="04534ccc-b1a1-4030-b9e6-8c8dbb27faa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3123d3c1-b807-14df-258c-4bcb70729054" executionId="5fb1c449-1708-4735-ad68-f590982460d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45ccdcf3-4686-de7a-54f8-2bf19bffaf16" executionId="b23348f7-f8ea-4291-9dc2-63838968c126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17bdc49d-92ff-5313-d946-c26cad936b82" executionId="12285ced-3330-4494-9ca0-e33d8e9cea69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37d24a8f-6816-1971-ad17-a13c8dbb2c2f" executionId="9295b7f6-5469-42fa-b33c-3a103c50ca52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc0be8b2-6b98-51d5-aa58-deb93b8dda05" executionId="e3d10043-df5b-4718-982d-409e2fadc165" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f" executionId="482e19e5-af34-434f-af24-ec24e48295b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54be62e-b6ef-0fd9-a706-6249527c3013" executionId="91249b8d-a7dd-40e1-99ca-d2a3cf2720c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29ea4fd2-7950-bb6f-6670-81b029ce6dc7" executionId="e3150454-3390-4803-bb07-069147805b84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" executionId="9e3b0d96-db41-4962-b584-c89a3351cd0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51172c26-1e69-f479-42c2-1d171b70610e" executionId="207ea4d3-f01c-4eaa-98bf-13cccab58abe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77d7d89d-1e6e-7b7f-2b0f-a16d7a49ede6" executionId="446990db-9722-4032-a761-13a1e8f89019" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="09e6d677-dba4-400a-b577-21434c6f6908" testId="048c21fc-22db-258a-b14e-0727745eb56f" testName="CompanyControllerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:10:12.6290568+01:00" endTime="2012-09-25T15:12:48.3116235+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09e6d677-dba4-400a-b577-21434c6f6908">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web server for page 'http://localhost:23577/' did not respond. Check that the Web server is running and visible on the network.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6483aab7-c06a-436a-b675-7b22e290db2b" testId="1cc26711-067d-90ed-698f-eafeaf6ffdce" testName="getAPointsTest" computerName="QIQSTANB222" duration="00:00:07.2872614" startTime="2012-09-25T15:12:48.3656289+01:00" endTime="2012-09-25T15:12:59.2987221+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6483aab7-c06a-436a-b675-7b22e290db2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="08373b99-021d-475b-bc66-641de64c55b6" testId="21be142e-5370-ae21-e2dc-be63484b5918" testName="randomNumberTest" computerName="QIQSTANB222" startTime="2012-09-25T15:12:59.3657288+01:00" endTime="2012-09-25T15:13:29.4477367+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08373b99-021d-475b-bc66-641de64c55b6">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web server for page 'http://localhost:23577/' did not respond. Check that the Web server is running and visible on the network.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b618918f-c368-457b-b89a-c9575b2b4a64" testId="43d82bd3-0aa5-484b-e322-8b19b19a32b8" testName="NewPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:13:29.5187438+01:00" endTime="2012-09-25T15:13:43.4431361+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b618918f-c368-457b-b89a-c9575b2b4a64">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_NewPasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_NewPasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a999abfb-d53d-457d-b495-f91106a23326" testId="69bf6a1f-1ea6-38b5-18dc-1a6d0ce22411" testName="CompanyLogoTest" computerName="QIQSTANB222" startTime="2012-09-25T15:13:43.5081426+01:00" endTime="2012-09-25T15:13:45.7653683+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a999abfb-d53d-457d-b495-f91106a23326">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanyLogoTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanyLogoTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b7f79fd-5cf3-4ad0-8d24-3ec2031d410b" testId="00be0e1b-b601-c776-f2f0-30741904f1b1" testName="PasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:13:45.8163734+01:00" endTime="2012-09-25T15:13:47.8655783+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b7f79fd-5cf3-4ad0-8d24-3ec2031d410b">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_PasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_PasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="0dfae233-7d27-47b4-857c-a2484e6a1ecf" testId="1693e4db-f862-1c48-6c21-acdbd7afc342" testName="removeRewardsAccountTest" computerName="QIQSTANB222" duration="00:00:02.2977767" startTime="2012-09-25T15:13:47.9385856+01:00" endTime="2012-09-25T15:13:50.2928210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dfae233-7d27-47b4-857c-a2484e6a1ecf">
+    </UnitTestResult>
+    <UnitTestResult executionId="b54cfc1f-7ee2-4bbf-aca7-82e61a19a993" testId="7256a3be-dfa5-ba8a-8c9c-abdc43dfa189" testName="ChangePasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:13:50.3488266+01:00" endTime="2012-09-25T15:13:52.3820299+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b54cfc1f-7ee2-4bbf-aca7-82e61a19a993">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ChangePasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ChangePasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="bedce835-92ab-4053-afec-0b2a64f6475b" testId="9393a8b0-c66a-8c79-0e50-8db802539041" testName="Index" computerName="QIQSTANB222" duration="00:00:01.0229796" startTime="2012-09-25T15:13:52.4580375+01:00" endTime="2012-09-25T15:13:56.5934510+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bedce835-92ab-4053-afec-0b2a64f6475b">
+    </UnitTestResult>
+    <UnitTestResult executionId="270219ef-0754-4ab7-aab7-c6484724d307" testId="0500de23-aeeb-f6c6-c692-6fab2def3d9a" testName="ConfirmPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:13:56.6714588+01:00" endTime="2012-09-25T15:13:59.2567173+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="270219ef-0754-4ab7-aab7-c6484724d307">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ConfirmPasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ConfirmPasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="82a18620-39a0-4c83-afcd-a031b745a0bd" testId="be281358-853b-1fea-8ed3-2f2e8b12cbc5" testName="DeleteTest" computerName="QIQSTANB222" startTime="2012-09-25T15:13:59.3307247+01:00" endTime="2012-09-25T15:14:01.4969413+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82a18620-39a0-4c83-afcd-a031b745a0bd">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_DeleteTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c9156d4-47de-4222-9635-b03fa21f0f67" testId="03723c9d-78b0-9a97-d39b-ea9adc0b5032" testName="removeRewardsAccountTest1" computerName="QIQSTANB222" duration="00:00:00.2833729" startTime="2012-09-25T15:14:01.5629479+01:00" endTime="2012-09-25T15:14:01.8869803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c9156d4-47de-4222-9635-b03fa21f0f67">
+    </UnitTestResult>
+    <UnitTestResult executionId="3abb99eb-cb80-40eb-bd7d-19796a750b30" testId="e83d5e76-81cb-7aa5-6350-533ceff0a688" testName="ChangePasswordTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:14:01.9559872+01:00" endTime="2012-09-25T15:14:04.5202436+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3abb99eb-cb80-40eb-bd7d-19796a750b30">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ChangePasswordTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ChangePasswordTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1bcb4a97-9e73-40cb-a627-90657aefffdd" testId="ae35e2ee-ae2d-f18d-8b83-76e8db8078e6" testName="RegisterModelConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:04.5892505+01:00" endTime="2012-09-25T15:14:06.5654481+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bcb4a97-9e73-40cb-a627-90657aefffdd">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RegisterModelConstru.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RegisterModelConstru.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe97b289-ebe1-4ccc-ad9d-11fdca985da7" testId="19c3c3f8-0de5-98b3-b920-2aa3a45b3c3a" testName="getRewardsAccountTest" computerName="QIQSTANB222" duration="00:00:00.0715348" startTime="2012-09-25T15:14:06.6424558+01:00" endTime="2012-09-25T15:14:06.7724688+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe97b289-ebe1-4ccc-ad9d-11fdca985da7">
+    </UnitTestResult>
+    <UnitTestResult executionId="410751df-55f4-4539-a0bf-e714eebb01d6" testId="cb123c34-53d6-8589-a530-6019f5c69297" testName="ManageUserControllerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:06.8384754+01:00" endTime="2012-09-25T15:14:09.1537069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="410751df-55f4-4539-a0bf-e714eebb01d6">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ManageUserController.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ManageUserController.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="525e0c5d-3909-473d-919a-c1993e258b13" testId="820156b9-ad9f-ae65-c2ee-43ca08069599" testName="CodedUITestMethod1" computerName="QIQSTANB222" duration="00:00:15.6326053" startTime="2012-09-25T15:14:09.2327148+01:00" endTime="2012-09-25T15:14:26.1844098+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="525e0c5d-3909-473d-919a-c1993e258b13">
+    </UnitTestResult>
+    <UnitTestResult executionId="80f64713-e8b8-4aa5-a978-3ab99471b7f6" testId="6d0c9798-42d3-4120-fbc0-fe8daffcbb33" testName="RememberMeTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:26.2594173+01:00" endTime="2012-09-25T15:14:28.4666380+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80f64713-e8b8-4aa5-a978-3ab99471b7f6">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RememberMeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RememberMeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d43a959-2044-4674-8758-025f43ba36c5" testId="aa374df2-50fc-43d7-2eb6-9baf87f49e00" testName="checkUserTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:28.5356449+01:00" endTime="2012-09-25T15:14:30.9088822+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d43a959-2044-4674-8758-025f43ba36c5">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_checkUserTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_checkUserTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1fef2556-310a-4941-ac3c-6004bf2f17e7" testId="74ac799f-e2d2-c781-beb2-a4a8877d42d6" testName="IndexTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:30.9988912+01:00" endTime="2012-09-25T15:14:33.5241437+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fef2556-310a-4941-ac3c-6004bf2f17e7">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_IndexTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="891075d6-17a2-4bae-9637-c4f93b8f208d" testId="1d26647c-42ba-c0b9-2ee7-5450efeecfd9" testName="getAllRewardsAccountTest1" computerName="QIQSTANB222" duration="00:00:00.1623109" startTime="2012-09-25T15:14:33.5821495+01:00" endTime="2012-09-25T15:14:33.7781691+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="891075d6-17a2-4bae-9637-c4f93b8f208d">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e1ceb19-7427-4ac4-be08-dd9059cbdf9b" testId="6e4dde9a-dbbb-b9f4-e481-f97b930e2a0a" testName="RewardAccountConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:33.8421755+01:00" endTime="2012-09-25T15:14:36.2404153+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e1ceb19-7427-4ac4-be08-dd9059cbdf9b">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RewardAccountConstru.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RewardAccountConstru.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="cdd25b1b-adc3-4714-9c63-f602b86d99f3" testId="77a4f4e8-b860-8022-afa0-04f704a7d75b" testName="superUserTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:36.3014214+01:00" endTime="2012-09-25T15:14:38.2076120+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdd25b1b-adc3-4714-9c63-f602b86d99f3">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_superUserTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_superUserTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f4c4aa3-9411-4309-96f8-7ccac4056224" testId="70a63c12-bf69-ec6d-2e0b-2b37b30e7f99" testName="RegisterTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:38.2796192+01:00" endTime="2012-09-25T15:14:40.4428355+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f4c4aa3-9411-4309-96f8-7ccac4056224">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RegisterTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RegisterTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="72781709-7f82-4d1f-84cf-644920bec6d9" testId="99b06b23-7e4b-7076-10c5-d7d3f2e8d5c2" testName="CreateTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:40.4998412+01:00" endTime="2012-09-25T15:14:42.5320444+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72781709-7f82-4d1f-84cf-644920bec6d9">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CreateTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="994f6bf3-cd07-43d3-88da-7d85ab71e706" testId="dfed860a-a785-21dc-6a75-52bf42003c70" testName="RegisterTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:14:42.5910503+01:00" endTime="2012-09-25T15:14:45.1323044+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="994f6bf3-cd07-43d3-88da-7d85ab71e706">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RegisterTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RegisterTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="01441b86-82e7-4d45-83f1-ea07fd58eb11" testId="bd3310f4-b4bd-3ae6-6615-9138f25eecfe" testName="CompanyTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:45.2023114+01:00" endTime="2012-09-25T15:14:47.3125224+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01441b86-82e7-4d45-83f1-ea07fd58eb11">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanyTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanyTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="02d349c0-91c1-47c7-9f1a-86b47e624c79" testId="46346720-47cc-a1a5-62c4-07a919cfeca1" testName="OneRewardsInitializerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:47.3895301+01:00" endTime="2012-09-25T15:14:49.6947606+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02d349c0-91c1-47c7-9f1a-86b47e624c79">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_OneRewardsInitialize.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_OneRewardsInitialize.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="dfb8761a-21e2-4c65-bd34-7985e806a33e" testId="f75630da-5c1f-a916-4e6a-f746a6a75e69" testName="PointsTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:49.7737685+01:00" endTime="2012-09-25T15:14:51.8259737+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfb8761a-21e2-4c65-bd34-7985e806a33e">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_PointsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_PointsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e6f94cb-6298-46b0-a641-da4c4856a079" testId="52b67e0d-05da-bc84-8704-39676712c651" testName="IndexTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:51.9149826+01:00" endTime="2012-09-25T15:14:54.5402451+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e6f94cb-6298-46b0-a641-da4c4856a079">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_IndexTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="cde770a8-779a-4a82-85af-fd18b1fdbd3d" testId="11fe0478-6fbe-efe8-a7c0-eff58555c624" testName="Contact" computerName="QIQSTANB222" duration="00:00:00.0526644" startTime="2012-09-25T15:14:54.6112522+01:00" endTime="2012-09-25T15:14:54.7092620+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cde770a8-779a-4a82-85af-fd18b1fdbd3d">
+    </UnitTestResult>
+    <UnitTestResult executionId="322c210b-99d2-4fc5-b75a-79c7c745a2ea" testId="78b00d71-1a05-ac7a-2671-0133262f0f63" testName="EmailTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:54.7992710+01:00" endTime="2012-09-25T15:14:57.6995610+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="322c210b-99d2-4fc5-b75a-79c7c745a2ea">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_EmailTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_EmailTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f286faa7-0d3d-43e0-ae60-a947a96d1fbb" testId="8141c866-f817-7fc4-cbec-b68e4ba3e60d" testName="RewardAccountIDTest" computerName="QIQSTANB222" startTime="2012-09-25T15:14:57.7935704+01:00" endTime="2012-09-25T15:15:00.7988709+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f286faa7-0d3d-43e0-ae60-a947a96d1fbb">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RewardAccountIDTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RewardAccountIDTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0bda683-4f70-4c08-9e10-093a1158b2fe" testId="2da4bebc-3c59-5ad6-f979-253de0819eef" testName="CompanyIDTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:00.9228833+01:00" endTime="2012-09-25T15:15:03.3791289+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0bda683-4f70-4c08-9e10-093a1158b2fe">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanyIDTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanyIDTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="95409c08-ab87-4f5c-b55d-e2e932afe7cd" testId="5c4a3b81-d2e9-390e-4d47-debd5f30f955" testName="UserNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:03.4511361+01:00" endTime="2012-09-25T15:15:06.1584068+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95409c08-ab87-4f5c-b55d-e2e932afe7cd">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserNameTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_UserNameTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b420acc-3f2b-4ae3-a7a1-5783c24a84e9" testId="9ece2e17-897e-6388-d7d8-b0118f0c769a" testName="TotalPointsTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:06.2424152+01:00" endTime="2012-09-25T15:15:08.7246634+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b420acc-3f2b-4ae3-a7a1-5783c24a84e9">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_TotalPointsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_TotalPointsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="aff24f8f-bc59-4a1b-8ff2-0a5f430e778c" testId="5176054c-75c6-838b-4970-d3108d95b0c4" testName="autenticatRegisteredTest" computerName="QIQSTANB222" duration="00:00:00.1084198" startTime="2012-09-25T15:15:08.8726782+01:00" endTime="2012-09-25T15:15:09.0296939+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aff24f8f-bc59-4a1b-8ff2-0a5f430e778c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6643d09-46d6-44e5-b68d-fa0e4ab3e888" testId="e2bd6ea1-3cb4-9b33-80ef-6c76fb9d61e4" testName="DeleteTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:09.1097019+01:00" endTime="2012-09-25T15:15:11.4969406+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6643d09-46d6-44e5-b68d-fa0e4ab3e888">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_DeleteTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="adb69211-dee0-4798-873b-380d09478428" testId="99af52ae-1cd6-7bc0-0a21-7a78e3f5546d" testName="UserNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:11.5659475+01:00" endTime="2012-09-25T15:15:13.9031812+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adb69211-dee0-4798-873b-380d09478428">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserNameTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_UserNameTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="fed55fa1-7a36-4d15-9015-57bc85815327" testId="ec07ab5b-4fa9-bdff-0466-b2f2dd14af3d" testName="addRewardsAccountTest" computerName="QIQSTANB222" duration="00:00:00.2059619" startTime="2012-09-25T15:15:13.9811890+01:00" endTime="2012-09-25T15:15:14.2352144+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fed55fa1-7a36-4d15-9015-57bc85815327">
+    </UnitTestResult>
+    <UnitTestResult executionId="72dc6ce2-6395-4979-80a0-fa2a6ff17e9e" testId="51975c1c-4e33-f71d-0de2-af5df9be6738" testName="CompanyIDTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:14.3132222+01:00" endTime="2012-09-25T15:15:16.4974406+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72dc6ce2-6395-4979-80a0-fa2a6ff17e9e">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanyIDTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanyIDTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b8f3973-6284-44cd-9c37-1215809bb528" testId="376d4788-8860-6174-3388-983e231b8249" testName="CreateTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:15:16.5724481+01:00" endTime="2012-09-25T15:15:18.9896898+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b8f3973-6284-44cd-9c37-1215809bb528">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CreateTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc7c9cb5-261b-441f-8b9a-6e87f02c5ab6" testId="d7a44c14-47b8-0ca6-fe55-fc4a88d8a203" testName="CreateTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:15:19.0666975+01:00" endTime="2012-09-25T15:15:21.4649373+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc7c9cb5-261b-441f-8b9a-6e87f02c5ab6">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CreateTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c2de121-3439-4b9e-910e-54b3242c02d9" testId="bfa3d854-20e9-afaf-6a5b-84d340d16475" testName="ConfirmPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:21.5309439+01:00" endTime="2012-09-25T15:15:23.8911799+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c2de121-3439-4b9e-910e-54b3242c02d9">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ConfirmPasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ConfirmPasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb69e7bf-a0e3-4a2f-aefa-96bcd1fecfc4" testId="e82191a5-2f62-4d54-fa6f-90c6e1d348a4" testName="updatePointsTest" computerName="QIQSTANB222" duration="00:00:00.2139636" startTime="2012-09-25T15:15:23.9981906+01:00" endTime="2012-09-25T15:15:24.2602168+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb69e7bf-a0e3-4a2f-aefa-96bcd1fecfc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="68c0d727-03bc-46da-8abf-391fe58ea998" testId="b6efabb5-ab30-c84c-1c96-a4c8b0070e25" testName="IndexTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:24.3252233+01:00" endTime="2012-09-25T15:15:26.6874595+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68c0d727-03bc-46da-8abf-391fe58ea998">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_IndexTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="d374835f-848f-43dc-a8a2-7b1e96e91d77" testId="f7d76670-4ea5-14d9-3740-a9f0c64dcb60" testName="CompanyRewardsLinkTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:26.7994707+01:00" endTime="2012-09-25T15:15:29.1297037+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d374835f-848f-43dc-a8a2-7b1e96e91d77">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanyRewardsLinkTe.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanyRewardsLinkTe.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="8bc98cc2-9009-472b-bbdc-95cf322f27de" testId="2c4292c6-e7b9-e2bc-bc8b-0a8e348093c5" testName="ChangePasswordSuccessTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:29.1837091+01:00" endTime="2012-09-25T15:15:31.4979405+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bc98cc2-9009-472b-bbdc-95cf322f27de">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ChangePasswordSucces.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ChangePasswordSucces.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e1a255c2-e8cd-425f-a9e3-e76c5e71a3cf" testId="63d0853f-8615-5260-30bf-6de8d2e4f284" testName="LoginTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:15:31.5699477+01:00" endTime="2012-09-25T15:15:33.9061813+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1a255c2-e8cd-425f-a9e3-e76c5e71a3cf">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_LoginTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_LoginTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="282e424f-70fa-4f48-b7e8-6e7b4503949f" testId="48762070-4a75-7928-4c52-f763f6fa0806" testName="getTPointsTest" computerName="QIQSTANB222" duration="00:00:00.0752610" startTime="2012-09-25T15:15:33.9631870+01:00" endTime="2012-09-25T15:15:34.0761983+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="282e424f-70fa-4f48-b7e8-6e7b4503949f">
+    </UnitTestResult>
+    <UnitTestResult executionId="af470811-7c17-470e-9c59-a635563bb6fb" testId="569db36b-aaf6-0347-4a22-0da6b66abb9d" testName="UserNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:34.1302037+01:00" endTime="2012-09-25T15:15:36.0413948+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af470811-7c17-470e-9c59-a635563bb6fb">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserNameTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_UserNameTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3134695e-85fa-4652-96e0-99c75113b4c8" testId="19b2f990-75a9-1a45-e5ae-b316dcaf04c2" testName="EditTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:36.0964003+01:00" endTime="2012-09-25T15:15:38.1436050+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3134695e-85fa-4652-96e0-99c75113b4c8">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_EditTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_EditTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="89eda12f-334d-414c-8c2e-2192d142e685" testId="7bccd21c-8788-8f6b-24d4-252f03c32562" testName="LoginTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:38.2126119+01:00" endTime="2012-09-25T15:15:40.2828189+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89eda12f-334d-414c-8c2e-2192d142e685">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_LoginTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_LoginTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b3307a2-835a-44b0-a33e-02bb91b1a611" testId="7036f143-371c-6f5c-0405-5641f0559823" testName="CompanyNameTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:40.3408247+01:00" endTime="2012-09-25T15:15:42.2870193+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b3307a2-835a-44b0-a33e-02bb91b1a611">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanyNameTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanyNameTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="860cd070-caca-42aa-bba6-65280482811d" testId="429d7597-ec02-7233-723e-1f5db3d511c3" testName="OneRewardsContextConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:42.3520258+01:00" endTime="2012-09-25T15:15:44.3452251+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="860cd070-caca-42aa-bba6-65280482811d">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_OneRewardsContextCon.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_OneRewardsContextCon.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f3ccc9a-01bb-4845-a909-7359e0f4fb87" testId="5d366f05-d5ed-f6a1-c3f5-0946714cc580" testName="PasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:44.3972303+01:00" endTime="2012-09-25T15:15:46.2804186+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f3ccc9a-01bb-4845-a909-7359e0f4fb87">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_PasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_PasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="d4c55adc-e4da-493c-870a-aec1c1af01b2" testId="ed20047a-3110-0877-3507-be97b1a3c1c4" testName="OldPasswordTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:46.3334239+01:00" endTime="2012-09-25T15:15:48.3206226+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4c55adc-e4da-493c-870a-aec1c1af01b2">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_OldPasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_OldPasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4eb0eb8-9b65-4f52-b3cd-95fce618a110" testId="0a370041-7040-2e13-5863-bac5253f5ac5" testName="RewardAccountsTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:48.3756281+01:00" endTime="2012-09-25T15:15:50.5438449+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4eb0eb8-9b65-4f52-b3cd-95fce618a110">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RewardAccountsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RewardAccountsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e56f6e2-20b7-47fa-ba58-180ddbc6be62" testId="c3470532-85b6-cfc4-e394-8ff591a2d3f9" testName="ConvertImageFiletoBytesTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:50.6008506+01:00" endTime="2012-09-25T15:15:52.4420347+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e56f6e2-20b7-47fa-ba58-180ddbc6be62">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ConvertImageFiletoBy.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ConvertImageFiletoBy.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="49cf3150-c4ad-4ad3-97b7-b5fa145ed980" testId="b5b4cb24-5563-1383-6cd4-4e0379aff743" testName="DeleteTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:52.5040409+01:00" endTime="2012-09-25T15:15:54.6912596+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49cf3150-c4ad-4ad3-97b7-b5fa145ed980">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_DeleteTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="16e53c3d-bdc1-465d-93d1-2b8b04c9fa21" testId="598a27e1-d830-9fbb-0960-89499962ae78" testName="autenticateUnregisteredTest" computerName="QIQSTANB222" duration="00:00:00.0751937" startTime="2012-09-25T15:15:54.7442649+01:00" endTime="2012-09-25T15:15:54.8502755+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16e53c3d-bdc1-465d-93d1-2b8b04c9fa21">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8e48323-3e28-45cb-bbde-34dd892444ff" testId="713d46ab-6981-fbf5-ac44-81204a8a219e" testName="CreateTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:54.9062811+01:00" endTime="2012-09-25T15:15:56.7354640+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8e48323-3e28-45cb-bbde-34dd892444ff">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CreateTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="c66ed522-61d0-4d30-a4e7-5b2ba8c11067" testId="145fdb5f-e5e9-756f-1a85-85923f93c7a4" testName="VerifyAppDomainHasConfigurationSettings" computerName="QIQSTANB222" duration="00:00:00.0037923" startTime="2012-09-25T15:15:56.7904695+01:00" endTime="2012-09-25T15:15:56.8234728+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c66ed522-61d0-4d30-a4e7-5b2ba8c11067">
+    </UnitTestResult>
+    <UnitTestResult executionId="213306b6-1ed9-4580-a57c-7fab1ac81090" testId="5d19af3b-a1f7-93d9-f491-f55c1806498c" testName="CompanysTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:56.8884793+01:00" endTime="2012-09-25T15:15:59.0486953+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="213306b6-1ed9-4580-a57c-7fab1ac81090">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CompanysTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CompanysTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="04534ccc-b1a1-4030-b9e6-8c8dbb27faa4" testId="f9952bbc-fdc3-e8c2-a850-eb918257649d" testName="getAllRewardsAccountTest" computerName="QIQSTANB222" duration="00:00:00.0654899" startTime="2012-09-25T15:15:59.1137018+01:00" endTime="2012-09-25T15:15:59.2147119+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04534ccc-b1a1-4030-b9e6-8c8dbb27faa4">
+    </UnitTestResult>
+    <UnitTestResult executionId="5fb1c449-1708-4735-ad68-f590982460d4" testId="3123d3c1-b807-14df-258c-4bcb70729054" testName="getCompanyLogoTest" computerName="QIQSTANB222" duration="00:00:00.1996418" startTime="2012-09-25T15:15:59.2727177+01:00" endTime="2012-09-25T15:15:59.5027407+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fb1c449-1708-4735-ad68-f590982460d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="b23348f7-f8ea-4291-9dc2-63838968c126" testId="45ccdcf3-4686-de7a-54f8-2bf19bffaf16" testName="ChangePasswordModelConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:15:59.5597464+01:00" endTime="2012-09-25T15:16:01.6709575+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b23348f7-f8ea-4291-9dc2-63838968c126">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ChangePasswordModelC.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_ChangePasswordModelC.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="12285ced-3330-4494-9ca0-e33d8e9cea69" testId="17bdc49d-92ff-5313-d946-c26cad936b82" testName="CreateTest1" computerName="QIQSTANB222" startTime="2012-09-25T15:16:01.7629667+01:00" endTime="2012-09-25T15:16:03.8401744+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12285ced-3330-4494-9ca0-e33d8e9cea69">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_CreateTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9295b7f6-5469-42fa-b33c-3a103c50ca52" testId="37d24a8f-6816-1971-ad17-a13c8dbb2c2f" testName="updatePointsTest2" computerName="QIQSTANB222" duration="00:00:00.0713577" startTime="2012-09-25T15:16:03.8991803+01:00" endTime="2012-09-25T15:16:04.0021906+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9295b7f6-5469-42fa-b33c-3a103c50ca52">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3d10043-df5b-4718-982d-409e2fadc165" testId="cc0be8b2-6b98-51d5-aa58-deb93b8dda05" testName="updatePointsTest1" computerName="QIQSTANB222" duration="00:00:00.1264966" startTime="2012-09-25T15:16:04.0591963+01:00" endTime="2012-09-25T15:16:04.2182122+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3d10043-df5b-4718-982d-409e2fadc165">
+    </UnitTestResult>
+    <UnitTestResult executionId="482e19e5-af34-434f-af24-ec24e48295b7" testId="36d54adc-c7ce-cd47-2c67-fe2cf293eb5f" testName="EditTest" computerName="QIQSTANB222" startTime="2012-09-25T15:16:04.2772181+01:00" endTime="2012-09-25T15:16:06.1404044+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="482e19e5-af34-434f-af24-ec24e48295b7">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_EditTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_EditTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="91249b8d-a7dd-40e1-99ca-d2a3cf2720c7" testId="f54be62e-b6ef-0fd9-a706-6249527c3013" testName="getAPointsTest1" computerName="QIQSTANB222" duration="00:00:00.1994404" startTime="2012-09-25T15:16:06.2034107+01:00" endTime="2012-09-25T15:16:06.4434347+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91249b8d-a7dd-40e1-99ca-d2a3cf2720c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3150454-3390-4803-bb07-069147805b84" testId="29ea4fd2-7950-bb6f-6670-81b029ce6dc7" testName="About" computerName="QIQSTANB222" duration="00:00:00.0265724" startTime="2012-09-25T15:16:06.5004404+01:00" endTime="2012-09-25T15:16:06.5714475+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3150454-3390-4803-bb07-069147805b84">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e3b0d96-db41-4962-b584-c89a3351cd0a" testId="47c84612-e9a7-0037-f786-2df27ea2d7d5" testName="RewardAccountControllerConstructorTest" computerName="QIQSTANB222" startTime="2012-09-25T15:16:06.6234527+01:00" endTime="2012-09-25T15:16:08.5626466+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e3b0d96-db41-4962-b584-c89a3351cd0a">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RewardAccountControl.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_RewardAccountControl.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="207ea4d3-f01c-4eaa-98bf-13cccab58abe" testId="51172c26-1e69-f479-42c2-1d171b70610e" testName="DeleteConfirmedTest" computerName="QIQSTANB222" startTime="2012-09-25T15:16:08.6166520+01:00" endTime="2012-09-25T15:16:10.6078511+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="207ea4d3-f01c-4eaa-98bf-13cccab58abe">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:23577/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteConfirmedTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="QIQSTANB222\WebRequestResponse_DeleteConfirmedTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="446990db-9722-4032-a761-13a1e8f89019" testId="77d7d89d-1e6e-7b7f-2b0f-a16d7a49ede6" testName="addDuplicateRewardsAccountTest" computerName="QIQSTANB222" duration="00:00:00.4485638" startTime="2012-09-25T15:16:10.6668570+01:00" endTime="2012-09-25T15:16:11.1509054+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="446990db-9722-4032-a761-13a1e8f89019">
+    </UnitTestResult>
+  </Results>
+</TestRun>
